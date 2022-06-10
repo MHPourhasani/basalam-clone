@@ -7,6 +7,7 @@
     list-style: none;
     direction: rtl;
     font-family: iranYekan;
+    background-color: #fff;
 }
 
 // textStyles mixin to set font-size & font-size & color
@@ -30,3 +31,27 @@
     border-radius: $borderRadius;
 }
 
+// mediaQuery mixin to set media query
+@mixin mediaQuery($screenSize) {
+    @if ($screenSize == xs) {
+        @media (max-width:639px) {
+            @content;
+        }
+    } @else if ($screenSize == sm){
+        @media (min-width:640px) and (max-width:767px){
+            @content;
+        }
+    } @else if ($screenSize == md){
+        @media (min-width:768px) and (max-width:1023px){
+            @content;
+        } 
+    } @else if ($screenSize == lg){
+        @media (min-width:1024px) and (max-width:1279px){
+            @content;
+        } 
+    } @else {
+        @media (min-width:1280px) {
+            @content;
+        } 
+    }
+}
