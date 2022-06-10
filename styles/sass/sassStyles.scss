@@ -35,13 +35,7 @@ main {
 }
 
 .golab-baner{
-    width: 90vw;
-    height: auto;
-    margin: 1.3rem 0;
-
-    img{
-        width: 100%;
-    }
+    @include banerSize(90vw, auto, 1.3rem, 0);
 }
 
 .category-1{
@@ -75,13 +69,7 @@ main {
 }
 
 .lavashak-baner {
-    width: 95vw;
-    height: auto;
-    margin: 1rem 0;
-
-    img{
-        width: 100%;
-    }
+    @include banerSize(95vw, auto, 1.3rem, 0);
 }
 
 .category-2-list {
@@ -119,11 +107,5 @@ main {
 }
 
 .toy-baner {
-    width: 95vw;
-    height: auto;
-    margin: 1.3rem 0;
-
-    img{
-        width: 100%;
-    }
+    @include banerSize(95vw, auto, 1.7rem, 0);
 }
