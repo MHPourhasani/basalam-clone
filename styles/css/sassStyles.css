@@ -7,7 +7,7 @@
   list-style: none;
   direction: rtl;
   font-family: iranYekan;
-  background-color: #fff;
+  background-color: #f7f7f7;
 }
 
 .mobile-menu {
@@ -48,7 +48,7 @@
           align-items: center;
   font-size: 0.75rem;
   font-size: 400;
-  color: #7f7f7f;
+  color: #333;
 }
 
 .mobile-menu a img {
@@ -116,15 +116,16 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   font-size: 1rem;
   font-size: 100;
-  color: #000;
+  color: #333;
+  text-align: center;
 }
 
 .category-1 a:hover {
@@ -147,5 +148,65 @@ main {
 
 .lavashak-baner img {
   width: 100%;
+}
+
+.category-2-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 95vw;
+  overflow: auto;
+  margin: 0.5rem 0;
+}
+
+.category-2-list li {
+  width: 18rem;
+  height: auto;
+  margin: 0 0.3rem;
+}
+
+.category-2-list a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1rem;
+  font-size: 300;
+  color: #333;
+  text-align: center;
+  width: 100%;
+}
+
+.category-2-list a:hover {
+  color: #F62C00;
+  -webkit-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+}
+
+.category-2-list img {
+  background-color: #fff;
+  width: 3.9rem;
+  height: 3.9rem;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
 }
 /*# sourceMappingURL=sassStyles.css.map */

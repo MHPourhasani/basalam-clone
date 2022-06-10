@@ -56,8 +56,9 @@ main {
     // font-weight: lighter;
 
     a {
-        @include flexStyles(column,center,center);
-        @include textStyles(1rem,100,$blackColor);
+        @include flexStyles(column,space-between,center);
+        @include textStyles(1rem,100,$darkGrayColor);
+        text-align: center;
 
         &:hover {
             color: $liteOrangeColor;
@@ -79,5 +80,39 @@ main {
 
     img{
         width: 100%;
+    }
+}
+
+.category-2-list {
+    @include flexStyles(row, space-between,flex-start);
+    width: 95vw;
+    overflow: auto;
+    margin: 0.5rem 0;
+
+    li {
+        width: 18rem;
+        height: auto;
+        margin: 0 0.3rem;
+    }
+
+    a {
+        @include flexStyles(column,center,center);
+        @include textStyles(1rem,300,$darkGrayColor);
+        text-align: center;
+
+        width: 100%;
+
+        &:hover {
+            color: $darkOrangeColor;
+            transition: all linear 0.2s;
+        }
+    }
+
+    img {
+        background-color: $whiteColor;
+        width: 3.9rem;
+        height: 3.9rem;
+        padding: 1rem;
+        margin-bottom: 0.5rem;
     }
 }
