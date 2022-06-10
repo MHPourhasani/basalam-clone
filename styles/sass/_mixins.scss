@@ -31,6 +31,17 @@
     border-radius: $borderRadius;
 }
 
+// banerSize mixin to set width and height and margin baner
+@mixin banerSize($width,$height,$m-y,$m-x) {
+    width: $width;
+    height: $height;
+    margin: $m-y $m-x;
+
+    img {
+        width: 100%;
+    }
+}
+
 // mediaQuery mixin to set media query
 @mixin mediaQuery($screenSize) {
     @if ($screenSize == xs) {
