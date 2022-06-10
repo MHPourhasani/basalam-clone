@@ -204,6 +204,7 @@ footer {
     
     a{
         @include textStyles(1.3rem, 300, $darkGrayColor);
+        background-color: initial;
         &:hover{
             color: $darkOrangeColor;
         }
@@ -215,5 +216,34 @@ footer {
 
     img {
         width: 27%;
+    }
+}
+
+.offPrice-email-container {
+    @include flexStyles(column,center,center);
+
+    margin: 1rem 0;
+
+    h5 {
+        margin: 5px 0;
+    }
+
+    input {
+        @include borderStyles(2px,solid,$liteGrayColor,10px);
+        padding: 0.9rem;
+        width: 55vw;
+    }
+
+    button {
+        @include textStyles(1rem, 300, $whiteColor);
+        @include borderStyles(0,solid,$darkGrayColor,10px);
+
+        background-color: $liteOrangeColor;
+        width: 25vw;
+        padding: 0.9rem 0;
+
+        &:hover {
+            background-color: $darkOrangeColor
+        }
     }
 }
