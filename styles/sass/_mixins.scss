@@ -1,0 +1,23 @@
+// normalize style mixin
+@mixin normalize {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+// textStyles mixin to set font-size & font-size & color
+@mixin textStyles($fontSize,$fontWeight,$textColor) {
+    font-size: $fontSize;
+    font-size: $fontWeight;
+    color: $textColor;
+}
+
+// flexStyles mixin to set display & justify-content & align-items
+@mixin flexStyles($typeFlex,$typeFlexContent,$typeFlexItem) {
+    display: flex;
+    flex-direction: $typeFlex;
+    justify-content: $typeFlexContent;
+    align-items: $typeFlexItem;
+}
