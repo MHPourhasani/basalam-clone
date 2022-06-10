@@ -191,3 +191,29 @@ footer {
         background-color: initial;
     }
 }
+
+.download-app-section {
+    background-color: $whiteColor;
+    text-align: center;
+    padding: 0 5px;
+    
+    h2 {
+        background-color: initial;
+        margin: 1rem 0 ;
+    }
+    
+    a{
+        @include textStyles(1.3rem, 300, $darkGrayColor);
+        &:hover{
+            color: $darkOrangeColor;
+        }
+    }
+
+    div {
+        @include flexStyles(row,space-around,center);
+    }
+
+    img {
+        width: 27%;
+    }
+}

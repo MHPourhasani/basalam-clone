@@ -389,4 +389,44 @@ footer {
 .basalam-benefit h5 {
   background-color: initial;
 }
+
+.download-app-section {
+  background-color: #fff;
+  text-align: center;
+  padding: 0 5px;
+}
+
+.download-app-section h2 {
+  background-color: initial;
+  margin: 1rem 0;
+}
+
+.download-app-section a {
+  font-size: 1.3rem;
+  font-size: 300;
+  color: #333;
+}
+
+.download-app-section a:hover {
+  color: #F62C00;
+}
+
+.download-app-section div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.download-app-section img {
+  width: 27%;
+}
 /*# sourceMappingURL=sassStyles.css.map */
