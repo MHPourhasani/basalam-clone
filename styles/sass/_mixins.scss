@@ -22,3 +22,10 @@
     justify-content: $typeFlexContent;
     align-items: $typeFlexItem;
 }
+
+// borderStyles mixin to set border (width & style & color) and border-radius
+@mixin borderStyles($borderWidth,$borderStyle,$borderColor,$borderRadius) {
+    border: $borderWidth $borderStyle $borderColor;
+    border-radius: $borderRadius;
+}
+
