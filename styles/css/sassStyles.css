@@ -7,6 +7,7 @@
   list-style: none;
   direction: rtl;
   font-family: iranYekan;
+  background-color: #fff;
 }
 
 .mobile-menu {
@@ -47,7 +48,7 @@
           align-items: center;
   font-size: 0.75rem;
   font-size: 400;
-  color: #7f7f7f;
+  color: #2a2d2e;
 }
 
 .mobile-menu a img {
@@ -56,5 +57,31 @@
 
 .mobile-menu a:hover {
   color: #214E94;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.golab-baner {
+  width: 90vw;
+  height: auto;
+  margin: 1.3rem 0;
+}
+
+.golab-baner img {
+  width: 100%;
 }
 /*# sourceMappingURL=sassStyles.css.map */
