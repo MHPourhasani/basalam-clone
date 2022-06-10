@@ -2,7 +2,7 @@
 @import 'mixins';
 
 * {
-    @include normalize
+    @include normalize;
 }
 
 .mobile-menu{
@@ -31,6 +31,7 @@
 
 main {
     @include flexStyles(column,center,center);
+    margin-bottom: 3rem;
 }
 
 .golab-baner{
@@ -114,5 +115,15 @@ main {
         height: 3.9rem;
         padding: 1rem;
         margin-bottom: 0.5rem;
+    }
+}
+
+.toy-baner {
+    width: 95vw;
+    height: auto;
+    margin: 1.3rem 0;
+
+    img{
+        width: 100%;
     }
 }
