@@ -1,0 +1,30 @@
+@import 'variables';
+@import 'mixins';
+
+* {
+    @include normalize
+}
+
+.mobile-menu{
+    @include flexStyles(row,space-around,center);
+    @include borderStyles(0.5px,solid,$liteGrayColor,0);
+
+    background-color: $whiteColor;
+    width: 100vw;
+    padding: 7px 0;
+    position: fixed;
+    bottom: 0;
+
+    a {
+        @include flexStyles(column,center,center);
+        @include textStyles(0.75rem,400,$darkGrayColor);
+
+        img{
+            margin-bottom: 2px;
+        }
+
+        &:hover{
+            color: #214E94;
+        }
+    }
+}
