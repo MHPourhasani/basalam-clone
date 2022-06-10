@@ -107,5 +107,60 @@ main {
 }
 
 .toy-baner {
-    @include banerSize(95vw, auto, 1.7rem, 0);
+    @include banerSize(95vw, auto, 1.5rem, 0);
+}
+
+.baners-group {
+    @include flexStyles(column,center,center);
+}
+
+.spices-bath-baner{
+    @include banerSize(95vw, auto, 0.5rem, 0);
+    @include flexStyles(column,center,center);
+
+    img{
+        margin: 7px 0;
+    }
+}
+
+.rice-matress-lamp-clock-baner {
+    @include flexStyles(row,space-around,center);
+    flex-wrap: wrap;
+
+    width: 98vw;
+    margin: 1.3rem 0;
+
+    img {
+        width: 50%;
+        height: auto;
+        padding: 7px;
+    }
+}
+
+.ghahveh-baner {
+    @include banerSize(95vw, auto, 1rem, 0);
+}
+
+.tanaghgholat-padari-baner{
+    @include banerSize(95vw, auto, 1.2rem, 0);
+
+    img {
+        margin: 4px 0;
+    }
+}
+
+.barghi-zivaralat-khorma-roghan-baner {
+    @include flexStyles(row,center,center);
+    flex-wrap: wrap;
+    width: 95vw;
+
+    img {
+        width: 50%;
+        height: auto;
+        margin: 7px 0;
+    }
+}
+
+.tajrobeh-kharid-baner {
+    @include banerSize(95vw, auto, 2rem, 0);
 }

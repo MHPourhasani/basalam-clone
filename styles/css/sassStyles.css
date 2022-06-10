@@ -214,10 +214,137 @@ main {
 .toy-baner {
   width: 95vw;
   height: auto;
-  margin: 1.7rem 0;
+  margin: 1.5rem 0;
 }
 
 .toy-baner img {
+  width: 100%;
+}
+
+.baners-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.spices-bath-baner {
+  width: 95vw;
+  height: auto;
+  margin: 0.5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.spices-bath-baner img {
+  width: 100%;
+}
+
+.spices-bath-baner img {
+  margin: 7px 0;
+}
+
+.rice-matress-lamp-clock-baner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 98vw;
+  margin: 1.3rem 0;
+}
+
+.rice-matress-lamp-clock-baner img {
+  width: 50%;
+  height: auto;
+  padding: 7px;
+}
+
+.ghahveh-baner {
+  width: 95vw;
+  height: auto;
+  margin: 1rem 0;
+}
+
+.ghahveh-baner img {
+  width: 100%;
+}
+
+.tanaghgholat-padari-baner {
+  width: 95vw;
+  height: auto;
+  margin: 1.2rem 0;
+}
+
+.tanaghgholat-padari-baner img {
+  width: 100%;
+}
+
+.tanaghgholat-padari-baner img {
+  margin: 4px 0;
+}
+
+.barghi-zivaralat-khorma-roghan-baner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 95vw;
+}
+
+.barghi-zivaralat-khorma-roghan-baner img {
+  width: 50%;
+  height: auto;
+  margin: 7px 0;
+}
+
+.tajrobeh-kharid-baner {
+  width: 95vw;
+  height: auto;
+  margin: 2rem 0;
+}
+
+.tajrobeh-kharid-baner img {
   width: 100%;
 }
 /*# sourceMappingURL=sassStyles.css.map */
