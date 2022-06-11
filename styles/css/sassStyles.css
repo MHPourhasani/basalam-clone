@@ -457,6 +457,42 @@ footer {
   border-radius: 10px;
   padding: 0.9rem;
   width: 55vw;
+  outline: none;
+}
+
+.offPrice-email-container input::-webkit-input-placeholder {
+  font-size: 1rem;
+  font-size: 300;
+  color: #fff;
+  color: #C5CFBB;
+}
+
+.offPrice-email-container input:-ms-input-placeholder {
+  font-size: 1rem;
+  font-size: 300;
+  color: #fff;
+  color: #C5CFBB;
+}
+
+.offPrice-email-container input::-ms-input-placeholder {
+  font-size: 1rem;
+  font-size: 300;
+  color: #fff;
+  color: #C5CFBB;
+}
+
+.offPrice-email-container input::placeholder {
+  font-size: 1rem;
+  font-size: 300;
+  color: #fff;
+  color: #C5CFBB;
+}
+
+.offPrice-email-container input:focus {
+  border: 2px solid #FF5C39;
+  border-radius: 10px;
+  -webkit-transition: all linear 0.1s;
+  transition: all linear 0.1s;
 }
 
 .offPrice-email-container button {

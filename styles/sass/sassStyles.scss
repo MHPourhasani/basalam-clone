@@ -232,6 +232,15 @@ footer {
         @include borderStyles(2px,solid,$liteGrayColor,10px);
         padding: 0.9rem;
         width: 55vw;
+        outline: none;
+        &::placeholder {
+            @include textStyles(1rem, bold, $v);
+        }
+
+        &:focus {
+            @include borderStyles(2px,solid,$liteOrangeColor,10px);
+            transition: all linear 0.1s;
+        }
     }
 
     button {
