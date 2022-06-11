@@ -402,6 +402,14 @@ main, footer {
     height: auto;
     padding: 7px;
   }
+  .ghahveh-baner {
+    width: 82vw;
+    height: auto;
+    margin: 1rem 0;
+  }
+  .ghahveh-baner img {
+    width: 100%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -488,6 +496,14 @@ main, footer {
     width: 50%;
     height: auto;
     padding: 8px;
+  }
+  .ghahveh-baner {
+    width: 92vw;
+    height: auto;
+    margin: 1rem 0;
+  }
+  .ghahveh-baner img {
+    width: 100%;
   }
 }
 
@@ -593,6 +609,14 @@ main, footer {
     width: 25%;
     height: auto;
     padding: 8px;
+  }
+  .ghahveh-baner {
+    width: 92vw;
+    height: auto;
+    margin: 1rem 0;
+  }
+  .ghahveh-baner img {
+    width: 100%;
   }
 }
 
@@ -700,6 +724,14 @@ main, footer {
   .rice-matress-lamp-clock-baner img {
     width: 25%;
     height: auto;
+  }
+  .ghahveh-baner {
+    width: 97vw;
+    height: auto;
+    margin: 1rem 0;
+  }
+  .ghahveh-baner img {
+    width: 100%;
   }
 }
 

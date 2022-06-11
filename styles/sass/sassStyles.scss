@@ -144,6 +144,7 @@ main, footer {
     }
 }
 
+// ghahveh baner section
 .ghahveh-baner {
     @include banerSize(95vw, auto, 1rem, 0);
 }
@@ -224,6 +225,11 @@ main, footer {
             padding: 7px;
         }
     }
+
+    // ghahveh baner section
+    .ghahveh-baner {
+        @include banerSize(82vw, auto, 1rem, 0);
+    }
 }
 
         // tablet screen (min-width:768px to max-width:1023px)
@@ -295,6 +301,11 @@ main, footer {
             height: auto;
             padding: 8px;
         }
+    }
+
+    // ghahveh baner section
+    .ghahveh-baner {
+        @include banerSize(92vw, auto, 1rem, 0);
     }
 }
 
@@ -372,6 +383,11 @@ main, footer {
             padding: 8px;
         }
     }
+
+    // ghahveh baner section
+    .ghahveh-baner {
+        @include banerSize(92vw, auto, 1rem, 0);
+    }
 }
 
         // large screen (min-width:1280px)
@@ -447,6 +463,11 @@ main, footer {
             width: 25%;
             height: auto;
         }
+    }
+
+    // ghahveh baner section
+    .ghahveh-baner {
+        @include banerSize(97vw, auto, 1rem, 0);
     }
 }
 
