@@ -32,6 +32,7 @@
 
 main, footer {
     @include flexStyles(column,center,center);
+    width: 100vw;
 }
 
         // main section
@@ -49,11 +50,10 @@ main, footer {
     li {
         margin: 0 0.4rem;
     }
-    // font-weight: lighter;
 
     a {
         @include flexStyles(column,space-between,center);
-        @include textStyles(1rem,100,$darkGrayColor);
+        @include textStyles(1rem,300,$darkGrayColor);
         text-align: center;
 
         &:hover {
@@ -172,12 +172,35 @@ main, footer {
     .golab-baner {
         @include banerSize(80vw, auto, 1.3rem, 0);
     }
+
+    .category-1 { 
+        margin: 0.75rem 1rem;
+
+        a {
+            margin: 0 0.3rem;
+        }
+    }
 }
 
         // tablet screen (min-width:768px to max-width:1023px)
 @include mediaQuery(md) {
     .golab-baner {
         @include banerSize(90vw, auto, 1.3rem, 0);
+    }
+
+    .category-1 { 
+        width: 95vw;
+        @include flexStyles(row,space-between,center);
+
+        a {
+            @include textStyles(1.1rem,300,$darkGrayColor);
+            margin: 0.8rem 0.5rem;
+        }
+
+        img {
+            width: 5rem;
+            height: 5rem;
+        }
     }
 }
 
@@ -186,6 +209,21 @@ main, footer {
     .golab-baner {
         @include banerSize(92vw, auto, 1.3rem, 0);
     }
+
+    .category-1 { 
+        width: 95vw;
+        @include flexStyles(row,space-between,center);
+
+        a {
+            @include textStyles(1.1rem,300,$darkGrayColor);
+            margin: 0.8rem 0.5rem;
+        }
+
+        img {
+            width: 5rem;
+            height: 5rem;
+        }
+    }
 }
 
         // large screen (min-width:1280px)
@@ -193,13 +231,30 @@ main, footer {
     .golab-baner {
         @include banerSize(97vw, auto, 1.3rem, 0);
     }
+
+    .category-1 { 
+        width: 80vw;
+        @include flexStyles(row,space-between,center);
+
+        a {
+            @include textStyles(1.1rem,300,$darkGrayColor);
+            margin: 0.8rem 0.4rem;
+        }
+
+        img {
+            width: 5.5rem;
+            height: 5.5rem;
+        }
+    }
 }
 
-@include mediaQuery(2xl) {
+@include mediaQuery(xxl) {
     .golab-baner {
         @include banerSize(90vw, auto, 1.3rem, 0);
     }
 }
+
+// ---------------------------------------------------------------- 
 
 footer {
     background-color: $whiteColor;

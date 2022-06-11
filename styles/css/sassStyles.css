@@ -73,6 +73,7 @@ main, footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100vw;
 }
 
 .golab-baner {
@@ -123,7 +124,7 @@ main, footer {
       -ms-flex-align: center;
           align-items: center;
   font-size: 1rem;
-  font-size: 100;
+  font-size: 300;
   color: #333;
   text-align: center;
 }
@@ -356,6 +357,12 @@ main, footer {
   .golab-baner img {
     width: 100%;
   }
+  .category-1 {
+    margin: 0.75rem 1rem;
+  }
+  .category-1 a {
+    margin: 0 0.3rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -366,6 +373,32 @@ main, footer {
   }
   .golab-baner img {
     width: 100%;
+  }
+  .category-1 {
+    width: 95vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .category-1 a {
+    font-size: 1.1rem;
+    font-size: 300;
+    color: #333;
+    margin: 0.8rem 0.5rem;
+  }
+  .category-1 img {
+    width: 5rem;
+    height: 5rem;
   }
 }
 
@@ -378,6 +411,32 @@ main, footer {
   .golab-baner img {
     width: 100%;
   }
+  .category-1 {
+    width: 95vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .category-1 a {
+    font-size: 1.1rem;
+    font-size: 300;
+    color: #333;
+    margin: 0.8rem 0.5rem;
+  }
+  .category-1 img {
+    width: 5rem;
+    height: 5rem;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -388,6 +447,32 @@ main, footer {
   }
   .golab-baner img {
     width: 100%;
+  }
+  .category-1 {
+    width: 80vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .category-1 a {
+    font-size: 1.1rem;
+    font-size: 300;
+    color: #333;
+    margin: 0.8rem 0.4rem;
+  }
+  .category-1 img {
+    width: 5.5rem;
+    height: 5.5rem;
   }
 }
 
