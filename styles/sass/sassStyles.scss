@@ -158,6 +158,7 @@ main, footer {
     }
 }
 
+// barghi and zivaralat and khorma and roghan baner section
 .barghi-zivaralat-khorma-roghan-baner {
     @include flexStyles(row,center,center);
     flex-wrap: wrap;
@@ -235,6 +236,12 @@ main, footer {
     // tanaghgholat and padari baner section
     .tanaghgholat-padari-baner{
         @include banerSize(82vw, auto, 1rem, 0);
+    }
+
+    // barghi and zivaralat and khorma and roghan baner section
+    .barghi-zivaralat-khorma-roghan-baner {
+        @include flexStyles(row,space-between,center);
+        width: 82vw;
     }
 }
 
@@ -317,6 +324,13 @@ main, footer {
     // tanaghgholat and padari baner section
     .tanaghgholat-padari-baner{
         @include banerSize(92vw, auto, 1.3rem, 0);
+    }
+
+    // barghi and zivaralat and khorma and roghan baner section
+    .barghi-zivaralat-khorma-roghan-baner {
+        @include flexStyles(row,space-between,center);
+        width: 92vw;
+        margin: 10px 0
     }
 }
 
@@ -408,6 +422,17 @@ main, footer {
             width: 49%;
         }
     }
+
+    // barghi and zivaralat and khorma and roghan baner section
+    .barghi-zivaralat-khorma-roghan-baner {
+        @include flexStyles(row,space-between,center);
+        width: 92vw;
+        margin: 10px 0;
+
+        img {
+            width: 23.5%;
+        }
+    }
 }
 
         // large screen (min-width:1280px)
@@ -496,6 +521,17 @@ main, footer {
         @include flexStyles(row,space-between,center);
         img {
             width: 49.3%;
+        }
+    }
+
+    // barghi and zivaralat and khorma and roghan baner section
+    .barghi-zivaralat-khorma-roghan-baner {
+        @include flexStyles(row,space-between,center);
+        width: 97vw;
+        margin: 1rem 0;
+
+        img {
+            width: 24%;
         }
     }
 }

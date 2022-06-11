@@ -418,6 +418,22 @@ main, footer {
   .tanaghgholat-padari-baner img {
     width: 100%;
   }
+  .barghi-zivaralat-khorma-roghan-baner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 82vw;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -520,6 +536,23 @@ main, footer {
   }
   .tanaghgholat-padari-baner img {
     width: 100%;
+  }
+  .barghi-zivaralat-khorma-roghan-baner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 92vw;
+    margin: 10px 0;
   }
 }
 
@@ -657,6 +690,26 @@ main, footer {
   }
   .tanaghgholat-padari-baner img {
     width: 49%;
+  }
+  .barghi-zivaralat-khorma-roghan-baner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 92vw;
+    margin: 10px 0;
+  }
+  .barghi-zivaralat-khorma-roghan-baner img {
+    width: 23.5%;
   }
 }
 
@@ -796,6 +849,26 @@ main, footer {
   }
   .tanaghgholat-padari-baner img {
     width: 49.3%;
+  }
+  .barghi-zivaralat-khorma-roghan-baner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 97vw;
+    margin: 1rem 0;
+  }
+  .barghi-zivaralat-khorma-roghan-baner img {
+    width: 24%;
   }
 }
 
