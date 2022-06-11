@@ -371,6 +371,12 @@ main, footer {
   .lavashak-baner img {
     width: 100%;
   }
+  .category-2-list {
+    width: 82vw;
+  }
+  .category-2-list li {
+    margin: 0 1.4rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -415,6 +421,23 @@ main, footer {
   }
   .lavashak-baner img {
     width: 100%;
+  }
+  .category-2-list {
+    width: 92vw;
+  }
+  .category-2-list li {
+    margin: 0 2.1rem;
+  }
+  .category-2-list a {
+    font-size: 1.1rem;
+    font-size: 300;
+    color: #333;
+  }
+  .category-2-list img {
+    background-color: #fff;
+    width: 4.3rem;
+    height: 4.3rem;
+    margin-bottom: 0.5rem;
   }
 }
 
@@ -461,6 +484,25 @@ main, footer {
   .lavashak-baner img {
     width: 100%;
   }
+  .category-2-list {
+    width: 92vw;
+  }
+  .category-2-list li {
+    margin: 0 0.5rem;
+  }
+  .category-2-list a {
+    font-size: 1.2rem;
+    font-size: 300;
+    color: #333;
+  }
+  .category-2-list img {
+    background-color: #fff;
+    background-size: 6rem;
+    width: 7rem;
+    height: 7rem;
+    padding: 2rem;
+    margin-bottom: 0.5rem;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -505,6 +547,25 @@ main, footer {
   }
   .lavashak-baner img {
     width: 100%;
+  }
+  .category-2-list {
+    width: 92vw;
+  }
+  .category-2-list li {
+    margin: 0 0.6rem;
+  }
+  .category-2-list a {
+    font-size: 1.1rem;
+    font-size: 300;
+    color: #333;
+  }
+  .category-2-list img {
+    background-color: #fff;
+    background-size: 6rem;
+    width: 7rem;
+    height: 7rem;
+    padding: 2rem;
+    margin-bottom: 0.5rem;
   }
 }
 

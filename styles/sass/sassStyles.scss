@@ -74,6 +74,7 @@ main, footer {
     @include banerSize(95vw, auto, 1.3rem, 0);
 }
 
+// category 2 section
 .category-2-list {
     @include flexStyles(row, space-between,flex-start);
     width: 95vw;
@@ -167,7 +168,7 @@ main, footer {
     @include banerSize(95vw, auto, 2rem, 0);
 }
 
-        // media query section to responsive elements
+// ------- media query section to responsive elements -------
         // mobile screen (max-width:639px)
 @include mediaQuery(sm) {
     .golab-baner {
@@ -185,6 +186,15 @@ main, footer {
     // lavashak baner section
     .lavashak-baner {    
         @include banerSize(82vw, auto, 1.3rem, 0);
+    }
+
+    // category 2 section
+    .category-2-list {
+        width: 82vw;
+
+        li {
+             margin: 0 1.4rem;
+        }
     }
 }
 
@@ -213,6 +223,27 @@ main, footer {
     .lavashak-baner {    
         @include banerSize(92vw, auto, 1.3rem, 0);
     }
+
+    // category 2 section
+    .category-2-list {
+        width: 92vw;
+
+        li {
+             margin: 0 2.1rem;
+        }
+
+        a {
+            @include textStyles(1.1rem,300,$darkGrayColor);
+        }
+
+        img {
+            background-color: $whiteColor;
+            width: 4.3rem;
+            height: 4.3rem;
+            // padding: 1rem;
+            margin-bottom: 0.5rem;
+        }
+    }
 }
 
         // laptop screen (min-width:1024px to max-width:1279px)
@@ -240,6 +271,28 @@ main, footer {
     .lavashak-baner {    
         @include banerSize(92vw, auto, 1.3rem, 0);
     }
+
+    // category 2 section
+    .category-2-list {
+        width: 92vw;
+
+        li {
+             margin: 0 0.5rem;
+        }
+
+        a {
+            @include textStyles(1.2rem,300,$darkGrayColor);
+        }
+
+        img {
+            background-color: $whiteColor;
+            background-size: 6rem;
+            width: 7rem;
+            height: 7rem;
+            padding: 2rem;
+            margin-bottom: 0.5rem;
+        }
+    }
 }
 
         // large screen (min-width:1280px)
@@ -266,6 +319,28 @@ main, footer {
     // lavashak baner section
     .lavashak-baner {    
         @include banerSize(97vw, auto, 1.3rem, 0);
+    }
+
+    // category 2 section
+    .category-2-list {
+        width: 92vw;
+
+        li {
+             margin: 0 0.6rem;
+        }
+
+        a {
+            @include textStyles(1.1rem,300,$darkGrayColor);
+        }
+
+        img {
+            background-color: $whiteColor;
+            background-size: 6rem;
+            width: 7rem;
+            height: 7rem;
+            padding: 2rem;
+            margin-bottom: 0.5rem;
+        }
     }
 }
 
