@@ -377,6 +377,14 @@ main, footer {
   .category-2-list li {
     margin: 0 1.4rem;
   }
+  .toy-baner {
+    width: 82vw;
+    height: auto;
+    margin: 1.5rem 0;
+  }
+  .toy-baner img {
+    width: 100%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -438,6 +446,14 @@ main, footer {
     width: 4.3rem;
     height: 4.3rem;
     margin-bottom: 0.5rem;
+  }
+  .toy-baner {
+    width: 92vw;
+    height: auto;
+    margin: 1.5rem 0;
+  }
+  .toy-baner img {
+    width: 100%;
   }
 }
 
@@ -503,6 +519,14 @@ main, footer {
     padding: 2rem;
     margin-bottom: 0.5rem;
   }
+  .toy-baner {
+    width: 92vw;
+    height: auto;
+    margin: 1.5rem 0;
+  }
+  .toy-baner img {
+    width: 100%;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -566,6 +590,14 @@ main, footer {
     height: 7rem;
     padding: 2rem;
     margin-bottom: 0.5rem;
+  }
+  .toy-baner {
+    width: 97vw;
+    height: auto;
+    margin: 1.5rem 0;
+  }
+  .toy-baner img {
+    width: 100%;
   }
 }
 

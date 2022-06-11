@@ -109,6 +109,7 @@ main, footer {
     }
 }
 
+// toy baner section
 .toy-baner {
     @include banerSize(95vw, auto, 1.5rem, 0);
 }
@@ -196,6 +197,11 @@ main, footer {
              margin: 0 1.4rem;
         }
     }
+
+    // toy baner section
+    .toy-baner {
+        @include banerSize(82vw, auto, 1.5rem, 0);
+    }
 }
 
         // tablet screen (min-width:768px to max-width:1023px)
@@ -243,6 +249,11 @@ main, footer {
             // padding: 1rem;
             margin-bottom: 0.5rem;
         }
+    }
+
+    // toy baner section
+    .toy-baner {
+        @include banerSize(92vw, auto, 1.5rem, 0);
     }
 }
 
@@ -293,6 +304,11 @@ main, footer {
             margin-bottom: 0.5rem;
         }
     }
+
+    // toy baner section
+    .toy-baner {
+        @include banerSize(92vw, auto, 1.5rem, 0);
+    }
 }
 
         // large screen (min-width:1280px)
@@ -341,6 +357,11 @@ main, footer {
             padding: 2rem;
             margin-bottom: 0.5rem;
         }
+    }
+
+    // toy baner section
+    .toy-baner {
+        @include banerSize(97vw, auto, 1.5rem, 0);
     }
 }
 
