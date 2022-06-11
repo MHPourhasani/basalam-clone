@@ -166,7 +166,7 @@ main, footer {
 
 footer {
     background-color: $whiteColor;
-    padding: 3rem 0;
+    padding: 0 0 3.5rem 0;
 }
 
 .basalam-benefit {
@@ -321,5 +321,17 @@ footer {
     p {
         @include textStyles(0.75rem, 300, $darkGrayColor);
         line-height: 1.2rem;
+    }
+}
+
+.copyWrite-container {
+    background: $darkGrayColor;
+    width: 100vw;
+    padding: 1.2rem 0.7rem;
+    margin-top: 1rem;
+
+    p {
+        @include textStyles(0.7rem, 300, $whiteColor);
+        background-color: initial;
     }
 }
