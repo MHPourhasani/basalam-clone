@@ -69,6 +69,7 @@ main, footer {
     }
 }
 
+// lavashak baner section
 .lavashak-baner {
     @include banerSize(95vw, auto, 1.3rem, 0);
 }
@@ -180,6 +181,11 @@ main, footer {
             margin: 0 0.3rem;
         }
     }
+
+    // lavashak baner section
+    .lavashak-baner {    
+        @include banerSize(82vw, auto, 1.3rem, 0);
+    }
 }
 
         // tablet screen (min-width:768px to max-width:1023px)
@@ -201,6 +207,11 @@ main, footer {
             width: 5rem;
             height: 5rem;
         }
+    }
+
+    // lavashak baner section
+    .lavashak-baner {    
+        @include banerSize(92vw, auto, 1.3rem, 0);
     }
 }
 
@@ -224,6 +235,11 @@ main, footer {
             height: 5rem;
         }
     }
+
+    // lavashak baner section
+    .lavashak-baner {    
+        @include banerSize(92vw, auto, 1.3rem, 0);
+    }
 }
 
         // large screen (min-width:1280px)
@@ -246,11 +262,10 @@ main, footer {
             height: 5.5rem;
         }
     }
-}
 
-@include mediaQuery(xxl) {
-    .golab-baner {
-        @include banerSize(90vw, auto, 1.3rem, 0);
+    // lavashak baner section
+    .lavashak-baner {    
+        @include banerSize(97vw, auto, 1.3rem, 0);
     }
 }
 

@@ -363,6 +363,14 @@ main, footer {
   .category-1 a {
     margin: 0 0.3rem;
   }
+  .lavashak-baner {
+    width: 82vw;
+    height: auto;
+    margin: 1.3rem 0;
+  }
+  .lavashak-baner img {
+    width: 100%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -399,6 +407,14 @@ main, footer {
   .category-1 img {
     width: 5rem;
     height: 5rem;
+  }
+  .lavashak-baner {
+    width: 92vw;
+    height: auto;
+    margin: 1.3rem 0;
+  }
+  .lavashak-baner img {
+    width: 100%;
   }
 }
 
@@ -437,6 +453,14 @@ main, footer {
     width: 5rem;
     height: 5rem;
   }
+  .lavashak-baner {
+    width: 92vw;
+    height: auto;
+    margin: 1.3rem 0;
+  }
+  .lavashak-baner img {
+    width: 100%;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -474,15 +498,12 @@ main, footer {
     width: 5.5rem;
     height: 5.5rem;
   }
-}
-
-@media (min-width: 1280px) {
-  .golab-baner {
-    width: 90vw;
+  .lavashak-baner {
+    width: 97vw;
     height: auto;
     margin: 1.3rem 0;
   }
-  .golab-baner img {
+  .lavashak-baner img {
     width: 100%;
   }
 }
