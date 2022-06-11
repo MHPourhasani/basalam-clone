@@ -434,6 +434,14 @@ main, footer {
             align-items: center;
     width: 82vw;
   }
+  .tajrobeh-kharid-baner {
+    width: 82vw;
+    height: auto;
+    margin: 2rem 0;
+  }
+  .tajrobeh-kharid-baner img {
+    width: 100%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -553,6 +561,14 @@ main, footer {
             align-items: center;
     width: 92vw;
     margin: 10px 0;
+  }
+  .tajrobeh-kharid-baner {
+    width: 92vw;
+    height: auto;
+    margin: 2rem 0;
+  }
+  .tajrobeh-kharid-baner img {
+    width: 100%;
   }
 }
 
@@ -710,6 +726,14 @@ main, footer {
   }
   .barghi-zivaralat-khorma-roghan-baner img {
     width: 23.5%;
+  }
+  .tajrobeh-kharid-baner {
+    width: 92vw;
+    height: auto;
+    margin: 2rem 0;
+  }
+  .tajrobeh-kharid-baner img {
+    width: 100%;
   }
 }
 
@@ -869,6 +893,14 @@ main, footer {
   }
   .barghi-zivaralat-khorma-roghan-baner img {
     width: 24%;
+  }
+  .tajrobeh-kharid-baner {
+    width: 97vw;
+    height: auto;
+    margin: 2rem 0;
+  }
+  .tajrobeh-kharid-baner img {
+    width: 100%;
   }
 }
 

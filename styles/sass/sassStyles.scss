@@ -171,6 +171,7 @@ main, footer {
     }
 }
 
+// tajrobeh kharid baner section
 .tajrobeh-kharid-baner {
     @include banerSize(95vw, auto, 2rem, 0);
 }
@@ -242,6 +243,11 @@ main, footer {
     .barghi-zivaralat-khorma-roghan-baner {
         @include flexStyles(row,space-between,center);
         width: 82vw;
+    }
+
+    // tajrobeh kharid baner section
+    .tajrobeh-kharid-baner {
+        @include banerSize(82vw, auto, 2rem, 0);
     }
 }
 
@@ -331,6 +337,11 @@ main, footer {
         @include flexStyles(row,space-between,center);
         width: 92vw;
         margin: 10px 0
+    }
+
+    // tajrobeh kharid baner section
+    .tajrobeh-kharid-baner {
+        @include banerSize(92vw, auto, 2rem, 0);
     }
 }
 
@@ -433,6 +444,11 @@ main, footer {
             width: 23.5%;
         }
     }
+
+    // tajrobeh kharid baner section
+    .tajrobeh-kharid-baner {
+        @include banerSize(92vw, auto, 2rem, 0);
+    }
 }
 
         // large screen (min-width:1280px)
@@ -533,6 +549,11 @@ main, footer {
         img {
             width: 24%;
         }
+    }
+
+    // tajrobeh kharid baner section
+    .tajrobeh-kharid-baner {
+        @include banerSize(97vw, auto, 2rem, 0);
     }
 }
 
