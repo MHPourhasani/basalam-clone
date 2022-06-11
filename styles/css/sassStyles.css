@@ -385,6 +385,14 @@ main, footer {
   .toy-baner img {
     width: 100%;
   }
+  .spices-bath-baner img {
+    width: 82vw;
+    height: auto;
+    margin: 0.5rem 0;
+  }
+  .spices-bath-baner img img {
+    width: 100%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -453,6 +461,14 @@ main, footer {
     margin: 1.5rem 0;
   }
   .toy-baner img {
+    width: 100%;
+  }
+  .spices-bath-baner img {
+    width: 92vw;
+    height: auto;
+    margin: 0.5rem 0;
+  }
+  .spices-bath-baner img img {
     width: 100%;
   }
 }
@@ -527,6 +543,30 @@ main, footer {
   .toy-baner img {
     width: 100%;
   }
+  .spices-bath-baner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 92vw;
+    height: auto;
+    margin: 0.5rem 0;
+  }
+  .spices-bath-baner img {
+    width: 100%;
+  }
+  .spices-bath-baner img {
+    width: 49%;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -598,6 +638,30 @@ main, footer {
   }
   .toy-baner img {
     width: 100%;
+  }
+  .spices-bath-baner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 97vw;
+    height: auto;
+    margin: 0.5rem 0;
+  }
+  .spices-bath-baner img {
+    width: 100%;
+  }
+  .spices-bath-baner img {
+    width: 49.4%;
   }
 }
 

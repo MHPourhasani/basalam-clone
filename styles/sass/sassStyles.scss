@@ -114,10 +114,12 @@ main, footer {
     @include banerSize(95vw, auto, 1.5rem, 0);
 }
 
+// baners group section
 .baners-group {
     @include flexStyles(column,center,center);
 }
 
+// spices and bathroom baner section
 .spices-bath-baner{
     @include banerSize(95vw, auto, 0.5rem, 0);
     @include flexStyles(column,center,center);
@@ -202,6 +204,13 @@ main, footer {
     .toy-baner {
         @include banerSize(82vw, auto, 1.5rem, 0);
     }
+
+    // spices and bathroom baner section
+    .spices-bath-baner {
+        img {
+            @include banerSize(82vw, auto, 0.5rem, 0);
+        }
+    }
 }
 
         // tablet screen (min-width:768px to max-width:1023px)
@@ -254,6 +263,13 @@ main, footer {
     // toy baner section
     .toy-baner {
         @include banerSize(92vw, auto, 1.5rem, 0);
+    }
+
+    // spices and bathroom baner section
+    .spices-bath-baner {
+        img {
+            @include banerSize(92vw, auto, 0.5rem, 0);
+        }
     }
 }
 
@@ -309,6 +325,16 @@ main, footer {
     .toy-baner {
         @include banerSize(92vw, auto, 1.5rem, 0);
     }
+
+    // spices and bathroom baner section
+    .spices-bath-baner {
+        @include flexStyles(row,space-between,center);
+        @include banerSize(92vw, auto, 0.5rem, 0);
+
+        img {
+            width: 49%;
+        }
+    }
 }
 
         // large screen (min-width:1280px)
@@ -362,6 +388,16 @@ main, footer {
     // toy baner section
     .toy-baner {
         @include banerSize(97vw, auto, 1.5rem, 0);
+    }
+
+    // spices and bathroom baner section
+    .spices-bath-baner {
+        @include flexStyles(row,space-between,center);
+        @include banerSize(97vw, auto, 0.5rem, 0);
+
+        img {
+            width: 49.4%;
+        }
     }
 }
 
