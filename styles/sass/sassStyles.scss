@@ -129,6 +129,7 @@ main, footer {
     }
 }
 
+// rice and matress and lamp and clock baner section
 .rice-matress-lamp-clock-baner {
     @include flexStyles(row,space-around,center);
     flex-wrap: wrap;
@@ -211,6 +212,18 @@ main, footer {
             @include banerSize(82vw, auto, 0.5rem, 0);
         }
     }
+
+    // rice and matress and lamp and clock baner section
+    .rice-matress-lamp-clock-baner {
+        width: 84vw;
+        margin: 1.3rem 0;
+
+        img {
+            width: 50%;
+            height: auto;
+            padding: 7px;
+        }
+    }
 }
 
         // tablet screen (min-width:768px to max-width:1023px)
@@ -269,6 +282,18 @@ main, footer {
     .spices-bath-baner {
         img {
             @include banerSize(92vw, auto, 0.5rem, 0);
+        }
+    }
+
+    // rice and matress and lamp and clock baner section
+    .rice-matress-lamp-clock-baner {
+        width: 94vw;
+        margin: 1.5rem 0;
+
+        img {
+            width: 50%;
+            height: auto;
+            padding: 8px;
         }
     }
 }
@@ -335,6 +360,18 @@ main, footer {
             width: 49%;
         }
     }
+
+    // rice and matress and lamp and clock baner section
+    .rice-matress-lamp-clock-baner {
+        width: 94vw;
+        margin: 1.5rem 0;
+
+        img {
+            width: 25%;
+            height: auto;
+            padding: 8px;
+        }
+    }
 }
 
         // large screen (min-width:1280px)
@@ -397,6 +434,18 @@ main, footer {
 
         img {
             width: 49.4%;
+        }
+    }
+
+    // rice and matress and lamp and clock baner section
+    .rice-matress-lamp-clock-baner {
+        width: 98vw;
+        margin: 1.5rem 0;
+        justify-content: space-between;
+
+        img {
+            width: 25%;
+            height: auto;
         }
     }
 }

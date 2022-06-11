@@ -393,6 +393,15 @@ main, footer {
   .spices-bath-baner img img {
     width: 100%;
   }
+  .rice-matress-lamp-clock-baner {
+    width: 84vw;
+    margin: 1.3rem 0;
+  }
+  .rice-matress-lamp-clock-baner img {
+    width: 50%;
+    height: auto;
+    padding: 7px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -470,6 +479,15 @@ main, footer {
   }
   .spices-bath-baner img img {
     width: 100%;
+  }
+  .rice-matress-lamp-clock-baner {
+    width: 94vw;
+    margin: 1.5rem 0;
+  }
+  .rice-matress-lamp-clock-baner img {
+    width: 50%;
+    height: auto;
+    padding: 8px;
   }
 }
 
@@ -567,6 +585,15 @@ main, footer {
   .spices-bath-baner img {
     width: 49%;
   }
+  .rice-matress-lamp-clock-baner {
+    width: 94vw;
+    margin: 1.5rem 0;
+  }
+  .rice-matress-lamp-clock-baner img {
+    width: 25%;
+    height: auto;
+    padding: 8px;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -662,6 +689,17 @@ main, footer {
   }
   .spices-bath-baner img {
     width: 49.4%;
+  }
+  .rice-matress-lamp-clock-baner {
+    width: 98vw;
+    margin: 1.5rem 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .rice-matress-lamp-clock-baner img {
+    width: 25%;
+    height: auto;
   }
 }
 
