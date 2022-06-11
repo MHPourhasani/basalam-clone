@@ -347,6 +347,61 @@ main, footer {
   width: 100%;
 }
 
+@media (min-width: 640px) and (max-width: 767px) {
+  .golab-baner {
+    width: 80vw;
+    height: auto;
+    margin: 1.3rem 0;
+  }
+  .golab-baner img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .golab-baner {
+    width: 90vw;
+    height: auto;
+    margin: 1.3rem 0;
+  }
+  .golab-baner img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .golab-baner {
+    width: 92vw;
+    height: auto;
+    margin: 1.3rem 0;
+  }
+  .golab-baner img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .golab-baner {
+    width: 97vw;
+    height: auto;
+    margin: 1.3rem 0;
+  }
+  .golab-baner img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .golab-baner {
+    width: 90vw;
+    height: auto;
+    margin: 1.3rem 0;
+  }
+  .golab-baner img {
+    width: 100%;
+  }
+}
+
 footer {
   background-color: #fff;
   padding: 0 0 3.5rem 0;
