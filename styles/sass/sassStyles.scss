@@ -149,6 +149,7 @@ main, footer {
     @include banerSize(95vw, auto, 1rem, 0);
 }
 
+// tanaghgholat and padari baner section
 .tanaghgholat-padari-baner{
     @include banerSize(95vw, auto, 1.2rem, 0);
 
@@ -230,6 +231,11 @@ main, footer {
     .ghahveh-baner {
         @include banerSize(82vw, auto, 1rem, 0);
     }
+
+    // tanaghgholat and padari baner section
+    .tanaghgholat-padari-baner{
+        @include banerSize(82vw, auto, 1rem, 0);
+    }
 }
 
         // tablet screen (min-width:768px to max-width:1023px)
@@ -306,6 +312,11 @@ main, footer {
     // ghahveh baner section
     .ghahveh-baner {
         @include banerSize(92vw, auto, 1rem, 0);
+    }
+
+    // tanaghgholat and padari baner section
+    .tanaghgholat-padari-baner{
+        @include banerSize(92vw, auto, 1.3rem, 0);
     }
 }
 
@@ -388,6 +399,15 @@ main, footer {
     .ghahveh-baner {
         @include banerSize(92vw, auto, 1rem, 0);
     }
+
+    // tanaghgholat and padari baner section
+    .tanaghgholat-padari-baner{
+        @include banerSize(92vw, auto, 1.3rem, 0);
+        @include flexStyles(row,space-between,center);
+        img {
+            width: 49%;
+        }
+    }
 }
 
         // large screen (min-width:1280px)
@@ -468,6 +488,15 @@ main, footer {
     // ghahveh baner section
     .ghahveh-baner {
         @include banerSize(97vw, auto, 1rem, 0);
+    }
+
+    // tanaghgholat and padari baner section
+    .tanaghgholat-padari-baner{
+        @include banerSize(97vw, auto, 1.3rem, 0);
+        @include flexStyles(row,space-between,center);
+        img {
+            width: 49.3%;
+        }
     }
 }
 
