@@ -576,4 +576,28 @@ footer {
   height: auto;
   margin: 0 0.7rem;
 }
+
+.basalam-description-container {
+  background-color: #fff;
+  width: 80vw;
+  margin: 1.5rem 0;
+}
+
+.basalam-description-container h4, .basalam-description-container p {
+  background-color: initial;
+}
+
+.basalam-description-container h4 {
+  font-size: 0.9rem;
+  font-size: 300;
+  color: #333;
+  margin: 1.5rem 0;
+}
+
+.basalam-description-container p {
+  font-size: 0.75rem;
+  font-size: 300;
+  color: #333;
+  line-height: 1.2rem;
+}
 /*# sourceMappingURL=sassStyles.css.map */

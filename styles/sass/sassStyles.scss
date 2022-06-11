@@ -303,3 +303,23 @@ footer {
         margin: 0 0.7rem;
     }
 }
+
+.basalam-description-container {
+    background-color: $whiteColor;
+    width: 80vw;
+    margin: 1.5rem 0;
+    
+    h4, p {
+        background-color: initial;
+    }
+    
+    h4 {
+        @include textStyles(0.9rem, 300, $darkGrayColor);
+        margin: 1.5rem 0;
+    }
+
+    p {
+        @include textStyles(0.75rem, 300, $darkGrayColor);
+        line-height: 1.2rem;
+    }
+}
