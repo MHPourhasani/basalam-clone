@@ -462,29 +462,25 @@ footer {
 
 .offPrice-email-container input::-webkit-input-placeholder {
   font-size: 1rem;
-  font-size: 300;
-  color: #fff;
+  font-size: bold;
   color: #C5CFBB;
 }
 
 .offPrice-email-container input:-ms-input-placeholder {
   font-size: 1rem;
-  font-size: 300;
-  color: #fff;
+  font-size: bold;
   color: #C5CFBB;
 }
 
 .offPrice-email-container input::-ms-input-placeholder {
   font-size: 1rem;
-  font-size: 300;
-  color: #fff;
+  font-size: bold;
   color: #C5CFBB;
 }
 
 .offPrice-email-container input::placeholder {
   font-size: 1rem;
-  font-size: 300;
-  color: #fff;
+  font-size: bold;
   color: #C5CFBB;
 }
 
@@ -508,5 +504,30 @@ footer {
 
 .offPrice-email-container button:hover {
   background-color: #F62C00;
+}
+
+.logos-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  margin: 2rem 0.9rem;
+}
+
+.logos-container img {
+  background-color: initial;
+  width: 25%;
+  height: auto;
+  margin: 0 0.7rem;
 }
 /*# sourceMappingURL=sassStyles.css.map */

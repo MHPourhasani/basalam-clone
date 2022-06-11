@@ -234,7 +234,7 @@ footer {
         width: 55vw;
         outline: none;
         &::placeholder {
-            @include textStyles(1rem, bold, $v);
+            @include textStyles(1rem, bold, $liteGrayColor);
         }
 
         &:focus {
@@ -254,5 +254,18 @@ footer {
         &:hover {
             background-color: $darkOrangeColor
         }
+    }
+}
+
+.logos-container {
+    @include flexStyles(row,center,center);
+    background-color: $whiteColor;
+    margin: 2rem 0.9rem;
+
+    img {
+        background-color: initial;
+        width: 25%;
+        height: auto;
+        margin: 0 0.7rem;
     }
 }
