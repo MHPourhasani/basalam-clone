@@ -1157,6 +1157,10 @@ footer {
   background-color: initial;
 }
 
+.logos-desc-container {
+  background-color: #fff;
+}
+
 .logos-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1293,6 +1297,12 @@ footer {
   .copyWrite-container p {
     padding: 1.2rem 3.5rem;
   }
+  .logos-container {
+    width: 70vw;
+  }
+  .basalam-description-container {
+    width: 70vw;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -1362,6 +1372,15 @@ footer {
   .copyWrite-container p {
     font-size: 0.8rem;
     padding: 1.6rem 2.5rem;
+  }
+  .logos-container {
+    width: 85vw;
+  }
+  .logos-container img {
+    margin: 0 2rem;
+  }
+  .basalam-description-container {
+    width: 80vw;
   }
 }
 
@@ -1458,6 +1477,40 @@ footer {
   .copyWrite-container p {
     font-size: 0.8rem;
     padding: 1.2rem 3rem;
+  }
+  .logos-desc-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100vw;
+    padding: 0 2.5rem;
+  }
+  .logos-container {
+    width: 43vw;
+  }
+  .logos-container img {
+    margin: 0 0.5rem;
+  }
+  .basalam-description-container {
+    width: 45vw;
+  }
+  .basalam-description-container h4 {
+    font-size: 1.2rem;
+  }
+  .basalam-description-container p {
+    font-size: 0.8rem;
+    margin: 1.5rem 0;
+    line-height: 1.4rem;
   }
 }
 
@@ -1573,6 +1626,40 @@ footer {
   .copyWrite-container p {
     font-size: 0.8rem;
     padding: 1.1rem 1.5rem;
+  }
+  .logos-desc-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100vw;
+    padding: 0 1rem;
+  }
+  .logos-container {
+    width: 35vw;
+  }
+  .logos-container img {
+    margin: 0 0.5rem;
+  }
+  .basalam-description-container {
+    width: 45vw;
+  }
+  .basalam-description-container h4 {
+    font-size: 1.2rem;
+  }
+  .basalam-description-container p {
+    font-size: 0.85rem;
+    margin: 1.5rem 0;
+    line-height: 1.4rem;
   }
 }
 /*# sourceMappingURL=sassStyles.css.map */

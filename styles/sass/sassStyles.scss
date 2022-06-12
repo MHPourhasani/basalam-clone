@@ -727,6 +727,12 @@ footer {
     }
 }
 
+// logos and description container
+.logos-desc-container {
+    background-color: $whiteColor;
+}
+
+// logos container
 .logos-container {
     @include flexStyles(row,center,center);
     background-color: $whiteColor;
@@ -740,6 +746,7 @@ footer {
     }
 }
 
+// basalam description container
 .basalam-description-container {
     background-color: $whiteColor;
     width: 80vw;
@@ -843,6 +850,16 @@ footer {
             padding: 1.2rem 3.5rem;
         }
     }
+
+    // logos container
+    .logos-container {
+        width: 70vw;
+    }
+
+    // basalam description container
+    .basalam-description-container {
+        width: 70vw;
+    }
 }
 
         // tablet screen (min-width:768px to max-width:1023px)
@@ -921,6 +938,20 @@ footer {
             font-size: 0.8rem;
             padding: 1.6rem 2.5rem;
         }
+    }
+
+    // logos container
+    .logos-container {
+        width: 85vw;
+
+        img {
+            margin: 0 2rem;
+        }
+    }
+
+    // basalam description container
+    .basalam-description-container {
+        width: 80vw;
     }
 }
 
@@ -1014,6 +1045,37 @@ footer {
         p {
             font-size: 0.8rem;
             padding: 1.2rem 3rem;
+        }
+    }
+
+    // logos and description container
+    .logos-desc-container {
+        @include flexStyles(row-reverse, space-between, center);
+        width: 100vw;
+        padding: 0 2.5rem;
+    }
+
+    // logos container
+    .logos-container {
+        width: 43vw;
+
+        img {
+            margin: 0 0.5rem;
+        }
+    }
+
+    // basalam description container
+    .basalam-description-container {
+        width: 45vw;
+
+        h4 {
+            font-size: 1.2rem;
+        }
+
+        p {
+            font-size: 0.8rem;
+            margin: 1.5rem 0;
+            line-height: 1.4rem;
         }
     }
 }
@@ -1130,6 +1192,37 @@ footer {
         p {
             font-size: 0.8rem;
             padding: 1.1rem 1.5rem;
+        }
+    }
+
+    // logos and description container
+    .logos-desc-container {
+        @include flexStyles(row-reverse, space-between, center);
+        width: 100vw;
+        padding: 0 1rem;
+    }
+
+    // logos container
+    .logos-container {
+        width: 35vw;
+
+        img {
+            margin: 0 0.5rem;
+        }
+    }
+
+    // basalam description container
+    .basalam-description-container {
+        width: 45vw;
+
+        h4 {
+            font-size: 1.2rem;
+        }
+
+        p {
+            font-size: 0.85rem;
+            margin: 1.5rem 0;
+            line-height: 1.4rem;
         }
     }
 }
