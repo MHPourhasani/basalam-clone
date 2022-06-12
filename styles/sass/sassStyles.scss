@@ -746,8 +746,9 @@ footer {
 // basalam description container
 .basalam-description-container {
     background-color: $whiteColor;
-    width: 80vw;
+    width: 100vw;
     margin: 1.5rem 0;
+    padding: 0 2rem;
     
     h4, p {
         background-color: initial;

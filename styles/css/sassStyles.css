@@ -1185,8 +1185,9 @@ footer {
 
 .basalam-description-container {
   background-color: #fff;
-  width: 80vw;
+  width: 100vw;
   margin: 1.5rem 0;
+  padding: 0 2rem;
 }
 
 .basalam-description-container h4, .basalam-description-container p {
