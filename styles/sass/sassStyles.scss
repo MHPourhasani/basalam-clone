@@ -5,7 +5,7 @@
     @include normalize;
 }
 
-        // mobile menu section
+// ---------------------- header ---------------------- 
 .mobile-menu{
     @include flexStyles(row,space-around,center);
     @include borderStyles(0.5px,solid,$liteGrayColor,0);
@@ -30,16 +30,19 @@
     }
 }
 
+// ---------------------- main ---------------------- 
+
 main, footer {
     @include flexStyles(column,center,center);
     width: 100vw;
 }
 
-        // main section
+// golab baner section
 .golab-baner{
     @include banerSize(90vw, auto, 1.3rem, 0);
 }
 
+// category 1 section
 .category-1{
     @include flexStyles(row,center,center);
     
@@ -179,10 +182,12 @@ main, footer {
 // ------- media query section to responsive elements in main section -------
         // mobile screen (max-width:639px)
 @include mediaQuery(sm) {
+    // golab baner section
     .golab-baner {
         @include banerSize(80vw, auto, 1.3rem, 0);
     }
 
+    // category 1 section
     .category-1 { 
         margin: 0.75rem 1rem;
 
@@ -255,10 +260,12 @@ main, footer {
 
         // tablet screen (min-width:768px to max-width:1023px)
 @include mediaQuery(md) {
+    // golab baner section
     .golab-baner {
         @include banerSize(90vw, auto, 1.3rem, 0);
     }
 
+    // category 1 section
     .category-1 { 
         width: 95vw;
         @include flexStyles(row,space-between,center);
@@ -349,10 +356,12 @@ main, footer {
 
         // laptop screen (min-width:1024px to max-width:1279px)
 @include mediaQuery(lg) {
+    // golab baner section
     .golab-baner {
         @include banerSize(92vw, auto, 1.3rem, 0);
     }
 
+    // category 1 section
     .category-1 { 
         width: 95vw;
         @include flexStyles(row,space-between,center);
