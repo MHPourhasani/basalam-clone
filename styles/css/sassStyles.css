@@ -905,11 +905,24 @@ main, footer {
 }
 
 footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #fff;
   padding: 0 0 3.5rem 0;
 }
 
-.basalam-benefit {
+.basalam-benefit-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -932,18 +945,18 @@ footer {
   text-align: center;
 }
 
-.basalam-benefit div {
+.basalam-benefit-container div {
   background-color: initial;
   margin: 10px;
 }
 
-.basalam-benefit img {
+.basalam-benefit-container img {
   background-color: initial;
   width: 3rem;
   height: 3rem;
 }
 
-.basalam-benefit h5 {
+.basalam-benefit-container h5 {
   background-color: initial;
 }
 
@@ -1170,5 +1183,156 @@ footer {
   font-size: 300;
   color: #fff;
   background-color: initial;
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+  .basalam-benefit-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 65vw;
+    margin: 1.5rem 0;
+  }
+  .basalam-benefit-container div {
+    width: 10rem;
+  }
+  .basalam-benefit-container img {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .basalam-benefit-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90vw;
+    margin: 1.5rem 0;
+    font-size: 1rem;
+  }
+  .basalam-benefit-container div {
+    width: 9.5rem;
+  }
+  .basalam-benefit-container img {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0 3vw;
+  }
+  .basalam-benefit-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    width: 50vw;
+    margin: 1.5rem 0;
+    font-size: 1.1rem;
+  }
+  .basalam-benefit-container div {
+    width: 9.5rem;
+  }
+  .basalam-benefit-container img {
+    width: 3.7rem;
+    height: 3.7rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0 1vw;
+  }
+  .basalam-benefit-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    width: 60vw;
+    margin: 1.5rem 0;
+    font-size: 1.1rem;
+  }
+  .basalam-benefit-container div {
+    width: 25%;
+  }
+  .basalam-benefit-container img {
+    width: 3.7rem;
+    height: 3.7rem;
+    margin-bottom: 1rem;
+  }
 }
 /*# sourceMappingURL=sassStyles.css.map */

@@ -176,7 +176,7 @@ main, footer {
     @include banerSize(95vw, auto, 2rem, 0);
 }
 
-// ------- media query section to responsive elements -------
+// ------- media query section to responsive elements in main section -------
         // mobile screen (max-width:639px)
 @include mediaQuery(sm) {
     .golab-baner {
@@ -559,12 +559,15 @@ main, footer {
 
 // ---------------------------------------------------------------- 
 
+// footer section
 footer {
+    @include flexStyles(column,center,center);
     background-color: $whiteColor;
     padding: 0 0 3.5rem 0;
 }
 
-.basalam-benefit {
+// basalam benefit section
+.basalam-benefit-container {
     @include flexStyles(row,center,center);
     @include textStyles(0.9rem, 300, $darkGrayColor);
     flex-wrap: wrap;
@@ -728,5 +731,101 @@ footer {
     p {
         @include textStyles(0.7rem, 300, $whiteColor);
         background-color: initial;
+    }
+}
+
+// ------- media query section to responsive elements in footer section -------
+        // mobile screen (max-width:639px)
+@include mediaQuery(sm) {
+    // basalam benefit container
+    .basalam-benefit-container {
+        @include flexStyles(row,space-between,center);
+        width: 65vw;
+        margin: 1.5rem 0;
+
+        div {
+            width: 10rem;
+        }
+
+        img {
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+        // tablet screen (min-width:768px to max-width:1023px)
+@include mediaQuery(md) {
+    // basalam benefit container
+    .basalam-benefit-container {
+        @include flexStyles(row,space-between,center);
+        width: 90vw;
+        margin: 1.5rem 0;
+        font-size: 1rem;
+
+        div {
+            width: 9.5rem;
+        }
+
+        img {
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+        // laptop screen (min-width:1024px to max-width:1279px)
+@include mediaQuery(lg) {
+    // footer section
+    footer {
+        @include flexStyles(row,space-between,center);
+        flex-wrap: wrap;
+        padding: 0 3vw;
+    }
+    
+    // basalam benefit container
+    .basalam-benefit-container {
+        @include flexStyles(row,space-between,center);
+        flex-wrap: nowrap;
+        width: 50vw;
+        margin: 1.5rem 0;
+        font-size: 1.1rem;
+
+        div {
+            width: 9.5rem;
+        }
+
+        img {
+            width: 3.7rem;
+            height: 3.7rem;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+        // large screen (min-width:1280px)
+@include mediaQuery(xl) {
+    // footer section
+    footer {
+        @include flexStyles(row,space-between,center);
+        flex-wrap: wrap;
+        padding: 0 1vw;
+    }
+
+    // basalam benefit container
+    .basalam-benefit-container {
+        @include flexStyles(row,space-between,center);
+        flex-wrap: nowrap;
+        width: 60vw;
+        margin: 1.5rem 0;
+        font-size: 1.1rem;
+
+        div {
+            width: 25%;
+        }
+
+        img {
+            width: 3.7rem;
+            height: 3.7rem;
+            margin-bottom: 1rem;
+        }
     }
 }
