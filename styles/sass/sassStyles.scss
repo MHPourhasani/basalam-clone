@@ -6,7 +6,8 @@
 }
 
 // ---------------------- header ---------------------- 
-.mobile-menu{
+// mobile menu section
+.mobile-menu {
     @include flexStyles(row,space-around,center);
     @include borderStyles(0.5px,solid,$liteGrayColor,0);
 
@@ -29,6 +30,24 @@
         }
     }
 }
+
+// ------- media query section to responsive elements in header section -------
+        // laptop screen (min-width:1024px to max-width:1279px)
+@include mediaQuery(lg) {
+    // mobile menu section
+    .mobile-menu {
+        display: none;
+    }
+}
+
+        // large screen (min-width:1280px)
+@include mediaQuery(xl) {
+    // mobile menu section
+    .mobile-menu {
+        display: none;
+    }
+}
+
 
 // ---------------------- main ---------------------- 
 
@@ -254,8 +273,6 @@ main, footer {
     .tajrobeh-kharid-baner {
         @include banerSize(82vw, auto, 2rem, 0);
     }
-
-
 }
 
         // tablet screen (min-width:768px to max-width:1023px)
