@@ -1004,6 +1004,23 @@ footer {
   width: 27%;
 }
 
+.email-media-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+}
+
 .offPrice-email-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1018,16 +1035,20 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #fff;
+  width: 90vw;
   margin: 1rem 0;
 }
 
 .offPrice-email-container h5 {
+  background-color: initial;
   margin: 5px 0;
 }
 
 .offPrice-email-container input {
   border: 2px solid #C5CFBB;
   border-radius: 10px;
+  background-color: initial;
   padding: 0.9rem;
   width: 55vw;
   outline: none;
@@ -1058,8 +1079,7 @@ footer {
 }
 
 .offPrice-email-container input:focus {
-  border: 2px solid #FF5C39;
-  border-radius: 10px;
+  border-color: #FF5C39;
   -webkit-transition: all linear 0.1s;
   transition: all linear 0.1s;
 }
@@ -1068,7 +1088,7 @@ footer {
   font-size: 1rem;
   font-size: 300;
   color: #fff;
-  border: 0 solid #333;
+  border: 0 solid #FF5C39;
   border-radius: 10px;
   background-color: #FF5C39;
   width: 25vw;
@@ -1078,6 +1098,9 @@ footer {
 
 .offPrice-email-container button:hover {
   background-color: #F62C00;
+  border-color: #F62C00;
+  -webkit-transition: all linear 0.2s;
+  transition: all linear 0.2s;
 }
 
 .social-media-container {
@@ -1116,13 +1139,10 @@ footer {
   margin: 0 0.6rem;
 }
 
-.social-media-container a:hover {
-  color: #F62C00;
-}
-
 .social-media-container a img {
   width: 1.3rem;
   height: 1.3rem;
+  background-color: initial;
 }
 
 .logos-container {
@@ -1226,6 +1246,38 @@ footer {
   .download-app-section img {
     width: 30%;
   }
+  .offPrice-email-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 75vw;
+    margin: 2rem 0;
+  }
+  .offPrice-email-container h5 {
+    font-size: 0.9rem;
+  }
+  .offPrice-email-container input {
+    width: 58vw;
+  }
+  .offPrice-email-container button {
+    width: 14vw;
+  }
+  .social-media-container {
+    width: 70vw;
+  }
+  .social-media-container h4 {
+    width: 60%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -1266,6 +1318,31 @@ footer {
   }
   .download-app-section img {
     width: 29%;
+  }
+  .offPrice-email-container {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: 2.5rem 0;
+  }
+  .offPrice-email-container h5 {
+    font-size: 1rem;
+  }
+  .offPrice-email-container input {
+    width: 73vw;
+  }
+  .offPrice-email-container button {
+    width: 15vw;
+  }
+  .social-media-container {
+    width: 85vw;
+  }
+  .social-media-container h4 {
+    width: 60%;
+  }
+  .social-media-container a img {
+    width: 1.5rem;
+    height: 1.5rem;
   }
 }
 
@@ -1330,6 +1407,35 @@ footer {
   .download-app-section img {
     width: 26%;
   }
+  .email-media-container {
+    width: 32vw;
+  }
+  .offPrice-email-container {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .offPrice-email-container h5 {
+    font-size: 1rem;
+  }
+  .offPrice-email-container form {
+    width: 100%;
+  }
+  .offPrice-email-container input {
+    width: 65%;
+  }
+  .offPrice-email-container button {
+    width: 30%;
+  }
+  .social-media-container {
+    width: 100%;
+  }
+  .social-media-container a img {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -1392,6 +1498,54 @@ footer {
   }
   .download-app-section img {
     width: 27%;
+  }
+  .offPrice-email-container {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: 2.5rem 0;
+  }
+  .offPrice-email-container h5 {
+    font-size: 1rem;
+  }
+  .offPrice-email-container input {
+    width: 73vw;
+  }
+  .offPrice-email-container button {
+    width: 14vw;
+  }
+  .email-media-container {
+    width: 30vw;
+  }
+  .offPrice-email-container {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+    margin: 1.5rem 0;
+  }
+  .offPrice-email-container h5 {
+    font-size: 1rem;
+    margin: 0.8rem 0;
+  }
+  .offPrice-email-container form {
+    width: 100%;
+  }
+  .offPrice-email-container input {
+    width: 72%;
+  }
+  .offPrice-email-container button {
+    width: 25%;
+  }
+  .social-media-container {
+    width: 100%;
+  }
+  .social-media-container h4 {
+    width: 60%;
+  }
+  .social-media-container a img {
+    width: 1.5rem;
+    height: 1.5rem;
   }
 }
 /*# sourceMappingURL=sassStyles.css.map */

@@ -249,6 +249,8 @@ main, footer {
     .tajrobeh-kharid-baner {
         @include banerSize(82vw, auto, 2rem, 0);
     }
+
+
 }
 
         // tablet screen (min-width:768px to max-width:1023px)
@@ -557,9 +559,8 @@ main, footer {
     }
 }
 
-// ---------------------------------------------------------------- 
+// ---------------------- footer ---------------------- 
 
-// footer section
 footer {
     @include flexStyles(column,center,center);
     background-color: $whiteColor;
@@ -620,17 +621,27 @@ footer {
     }
 }
 
+// offPrice email and social media app section
+.email-media-container {
+    @include flexStyles(column, center, center);
+    background-color: $whiteColor;
+}
+
+// offPrice email section
 .offPrice-email-container {
     @include flexStyles(column,center,center);
-
+    background-color: $whiteColor;
+    width: 90vw;
     margin: 1rem 0;
-
+    
     h5 {
+        background-color: initial;
         margin: 5px 0;
     }
-
+    
     input {
         @include borderStyles(2px,solid,$liteGrayColor,10px);
+        background-color: initial;
         padding: 0.9rem;
         width: 55vw;
         outline: none;
@@ -639,14 +650,14 @@ footer {
         }
 
         &:focus {
-            @include borderStyles(2px,solid,$liteOrangeColor,10px);
+            border-color: $liteOrangeColor;
             transition: all linear 0.1s;
         }
     }
 
     button {
         @include textStyles(1rem, 300, $whiteColor);
-        @include borderStyles(0,solid,$darkGrayColor,10px);
+        @include borderStyles(0,solid,$liteOrangeColor,10px);
 
         background-color: $liteOrangeColor;
         width: 25vw;
@@ -654,12 +665,14 @@ footer {
         cursor: pointer;
 
         &:hover {
-            background-color: $darkOrangeColor
+            background-color: $darkOrangeColor;
+            border-color: $darkOrangeColor;
+            transition: all linear 0.2s;
         }
     }
 }
 
-                // social media container 
+// social media container 
 .social-media-container {   
     @include flexStyles(row,space-between,center);
     @include textStyles(0.9rem, 300, $darkGrayColor);
@@ -675,19 +688,15 @@ footer {
         background-color: initial;
         width: 50%;
     }
-
+    
     a {
         background-color: initial;
         margin: 0 0.6rem;
         
-        &:hover {       
-            color: $darkOrangeColor;
-        }
-
         img {
             width: 1.3rem;
             height: 1.3rem;
-            
+            background-color: initial;
         }
     }
 }
@@ -755,7 +764,7 @@ footer {
         }
     }
 
-    // download app section
+        // download app section
     .download-app-section {
         width: 75vw;
 
@@ -771,6 +780,34 @@ footer {
             width: 30%;
         }
 
+    }
+
+    // offPrice email section
+    .offPrice-email-container {
+        @include flexStyles(column,center,flex-start);
+        width: 75vw;
+        margin: 2rem 0;
+
+        h5 {
+            font-size: 0.9rem;
+        }
+
+        input {
+            width: 58vw;
+        } 
+    
+        button {
+            width: 14vw;
+        }
+    }
+
+    // social media container 
+    .social-media-container {
+        width: 70vw;
+
+        h4 {
+            width: 60%;
+        }
     }
 }
 
@@ -808,6 +845,40 @@ footer {
             width: 29%;
         }
 
+    }
+
+    // offPrice email section
+    .offPrice-email-container {
+        align-items: flex-start;
+        margin: 2.5rem 0;
+
+        h5 {
+            font-size: 1rem;
+        }
+
+        input {
+            width: 73vw;
+        } 
+    
+        button {
+            width: 15vw;
+        }
+    }
+
+    // social media container 
+    .social-media-container {
+        width: 85vw;
+
+        h4 {
+            width: 60%;
+        }
+
+        a {
+            img {
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+        }
     }
 }
 
@@ -856,6 +927,45 @@ footer {
         }
 
     }
+
+    // offPrice email and social media app section
+    .email-media-container {
+        width: 32vw;
+    }
+    // offPrice email section
+    .offPrice-email-container {
+        align-items: flex-start;
+        width: 100%;
+        margin: 1rem 0;
+
+        h5 {
+            font-size: 1rem;
+        }
+
+        form {
+            width: 100%;
+        }
+
+        input {
+            width: 65%;
+        } 
+    
+        button {
+            width: 30%;
+        }
+    }
+
+    // social media container 
+    .social-media-container {
+        width: 100%;
+
+        a {
+            img {
+                width: 1.4rem;
+                height: 1.4rem;
+            }
+        }
+    }
 }
 
         // large screen (min-width:1280px)
@@ -901,6 +1011,67 @@ footer {
         img {
             width: 27%;
         }
+    }
 
+    // offPrice email section
+    .offPrice-email-container {
+        align-items: flex-start;
+        margin: 2.5rem 0;
+
+        h5 {
+            font-size: 1rem;
+        }
+
+        input {
+            width: 73vw;
+        } 
+    
+        button {
+            width: 14vw;
+        }
+    }
+
+    // offPrice email and social media app section
+    .email-media-container {
+        width: 30vw;
+    }
+    // offPrice email section
+    .offPrice-email-container {
+        align-items: flex-start;
+        width: 100%;
+        margin: 1.5rem 0;
+
+        h5 {
+            font-size: 1rem;
+            margin: 0.8rem 0;
+        }
+
+        form {
+            width: 100%;
+        }
+
+        input {
+            width: 72%;
+        } 
+    
+        button {
+            width: 25%;
+        }
+    }
+
+    // social media container 
+    .social-media-container {
+        width: 100%;
+
+        h4 {
+            width: 60%;
+        }
+
+        a {
+            img {
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+        }
     }
 }
