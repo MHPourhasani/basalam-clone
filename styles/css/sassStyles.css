@@ -1209,7 +1209,6 @@ footer {
 .copyWrite-container {
   background: #333;
   width: 100vw;
-  padding: 1.2rem 0.7rem;
   margin-top: 1rem;
 }
 
@@ -1218,6 +1217,7 @@ footer {
   font-size: 300;
   color: #fff;
   background-color: initial;
+  padding: 1.2rem 0.7rem;
 }
 
 @media (min-width: 640px) and (max-width: 767px) {
@@ -1290,6 +1290,9 @@ footer {
   .social-media-container h4 {
     width: 60%;
   }
+  .copyWrite-container p {
+    padding: 1.2rem 3.5rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -1356,6 +1359,10 @@ footer {
     width: 1.5rem;
     height: 1.5rem;
   }
+  .copyWrite-container p {
+    font-size: 0.8rem;
+    padding: 1.6rem 2.5rem;
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
@@ -1375,7 +1382,7 @@ footer {
             align-items: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    padding: 0 3vw;
+    padding: 0 0;
   }
   .basalam-benefit-container {
     display: -webkit-box;
@@ -1448,6 +1455,10 @@ footer {
     width: 1.4rem;
     height: 1.4rem;
   }
+  .copyWrite-container p {
+    font-size: 0.8rem;
+    padding: 1.2rem 3rem;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -1467,7 +1478,7 @@ footer {
             align-items: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    padding: 0 0.5vw;
+    padding: 0 0;
   }
   .basalam-benefit-container {
     display: -webkit-box;
@@ -1558,6 +1569,10 @@ footer {
   .social-media-container a img {
     width: 1.5rem;
     height: 1.5rem;
+  }
+  .copyWrite-container p {
+    font-size: 0.8rem;
+    padding: 1.1rem 1.5rem;
   }
 }
 /*# sourceMappingURL=sassStyles.css.map */
