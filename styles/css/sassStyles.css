@@ -112,13 +112,9 @@ main, footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100vw;
-  margin: 0.75rem 2rem;
+  width: 95vw;
+  margin: 0.75rem 0;
   overflow: auto;
-}
-
-.category-1 li {
-  margin: 0 0.4rem;
 }
 
 .category-1 a {
@@ -129,9 +125,9 @@ main, footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -139,6 +135,7 @@ main, footer {
   font-size: 300;
   color: #333;
   text-align: center;
+  margin: 0 0.4rem;
 }
 
 .category-1 a:hover {

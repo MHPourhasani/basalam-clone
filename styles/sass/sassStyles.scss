@@ -65,18 +65,15 @@ main, footer {
 .category-1{
     @include flexStyles(row,center,center);
     
-    width: 100vw;
-    margin: 0.75rem 2rem;
+    width: 95vw;
+    margin: 0.75rem 0;
     overflow: auto;
-
-    li {
-        margin: 0 0.4rem;
-    }
-
+    
     a {
-        @include flexStyles(column,space-between,center);
+        @include flexStyles(column,center,center);
         @include textStyles(1rem,300,$darkGrayColor);
         text-align: center;
+        margin: 0 0.4rem;
 
         &:hover {
             color: $liteOrangeColor;
