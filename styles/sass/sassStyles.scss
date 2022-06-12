@@ -590,6 +590,7 @@ footer {
     }
 }
 
+// download app section
 .download-app-section {
     background-color: $whiteColor;
     text-align: center;
@@ -600,16 +601,18 @@ footer {
         margin: 1rem 0 ;
     }
     
-    a{
+    a {
         @include textStyles(1.3rem, 300, $darkGrayColor);
         background-color: initial;
         &:hover{
+            transition: all linear 0.1s;
             color: $darkOrangeColor;
         }
     }
 
     div {
-        @include flexStyles(row,space-around,center);
+        @include flexStyles(row, space-around, center);
+        background-color: initial;
     }
 
     img {
@@ -751,6 +754,24 @@ footer {
             margin-bottom: 1rem;
         }
     }
+
+    // download app section
+    .download-app-section {
+        width: 75vw;
+
+        h2 {
+            margin: 0.7rem 0 ;
+        }
+
+        a {
+            @include textStyles(1.4rem, 500, $darkGrayColor);
+        }
+
+        img {
+            width: 30%;
+        }
+
+    }
 }
 
         // tablet screen (min-width:768px to max-width:1023px)
@@ -769,6 +790,24 @@ footer {
         img {
             margin-bottom: 1rem;
         }
+    }
+
+    // download app section
+    .download-app-section {
+        width: 65vw;
+
+        h2 {
+            margin: 0.7rem 0 ;
+        }
+
+        a {
+            @include textStyles(1.4rem, 500, $darkGrayColor);
+        }
+
+        img {
+            width: 29%;
+        }
+
     }
 }
 
@@ -799,6 +838,24 @@ footer {
             margin-bottom: 1rem;
         }
     }
+
+    // download app section
+    .download-app-section {
+        width: 30vw;
+
+        h2 {
+            margin: 1.5rem 0 ;
+        }
+
+        a {
+            @include textStyles(1.4rem, 500, $darkGrayColor);
+        }
+
+        img {
+            width: 26%;
+        }
+
+    }
 }
 
         // large screen (min-width:1280px)
@@ -807,14 +864,14 @@ footer {
     footer {
         @include flexStyles(row,space-between,center);
         flex-wrap: wrap;
-        padding: 0 1vw;
+        padding: 0 0.5vw;
     }
 
     // basalam benefit container
     .basalam-benefit-container {
         @include flexStyles(row,space-between,center);
         flex-wrap: nowrap;
-        width: 60vw;
+        width: 57vw;
         margin: 1.5rem 0;
         font-size: 1.1rem;
 
@@ -827,5 +884,23 @@ footer {
             height: 3.7rem;
             margin-bottom: 1rem;
         }
+    }
+
+    // download app section
+    .download-app-section {
+        width: 35vw;
+
+        h2 {
+            margin: 1.5rem 0 ;
+        }
+
+        a {
+            @include textStyles(1.4rem, 500, $darkGrayColor);
+        }
+
+        img {
+            width: 27%;
+        }
+
     }
 }
