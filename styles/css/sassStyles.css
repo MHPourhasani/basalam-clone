@@ -23,7 +23,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 0.5px solid #C5CFBB;
+  border: 0.5px solid #f5f5f5;
   border-radius: 0;
   background-color: #fff;
   width: 100vw;
@@ -59,15 +59,245 @@
   color: #214E94;
 }
 
+.large-header {
+  display: none;
+  width: 100vw;
+  border-bottom: 2px solid #e7e6e6;
+  padding: 0.5rem 2.5rem;
+  background-color: #fff;
+}
+
+.large-header .section-1-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: initial;
+  width: 100%;
+  padding: 0.6rem 0;
+}
+
+.large-header .logo-search-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: initial;
+  position: relative;
+}
+
+.large-header .basalam-logo {
+  background-color: #fff;
+  width: 5.5rem;
+}
+
+.large-header .search-icon {
+  background-color: #fff;
+  position: absolute;
+  right: 8rem;
+  width: 1.3rem;
+}
+
+.large-header input {
+  background-color: #f5f5f5;
+  width: 31rem;
+  height: 3.3rem;
+  margin: 0 1.5rem;
+  padding: 0 3rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: -0.5px;
+}
+
+.large-header .register-cart-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: initial;
+}
+
+.large-header .register-container, .large-header .cart-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.05rem;
+  font-size: 500;
+  color: #000;
+  background-color: initial;
+  letter-spacing: -0.5px;
+  border: none;
+}
+
+.large-header .register-container {
+  margin-left: 1.4rem;
+}
+
+.large-header .register-container h5 {
+  background-color: initial;
+}
+
+.large-header .register-container img {
+  background-color: initial;
+  width: 1.7rem;
+  margin: 10px 0;
+}
+
+.large-header .cart-container {
+  margin-right: 1.4rem;
+}
+
+.large-header .cart-container h5 {
+  background-color: initial;
+}
+
+.large-header .cart-container img {
+  width: 1.3rem;
+  margin: 13px 0;
+}
+
+.large-header .menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: #fff;
+  padding: 0.5rem 0;
+  gap: 2.5rem;
+}
+
+.large-header .menu-list ul, .large-header .menu-list li {
+  background-color: initial;
+}
+
+.large-header .menu-list a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2rem;
+  font-size: 500;
+  color: #000;
+  background-color: initial;
+  letter-spacing: -1px;
+}
+
+.large-header .menu-list a h5 {
+  background-color: initial;
+}
+
+.large-header .menu-list a:hover {
+  color: #FF5C39;
+}
+
+.large-header .menu-list img {
+  width: 0.9rem;
+  margin: 0 5px;
+}
+
+.large-header .menu-list img:hover {
+  color: #FF5C39;
+}
+
 @media (min-width: 1024px) and (max-width: 1279px) {
   .mobile-menu {
     display: none;
+  }
+  .large-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 
 @media (min-width: 1280px) {
   .mobile-menu {
     display: none;
+  }
+  .large-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0.5rem 1.3rem;
+  }
+  .large-header input {
+    width: 37.5rem;
   }
 }
 
@@ -939,9 +1169,9 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1013,6 +1243,159 @@ footer {
   width: 27%;
 }
 
+.logo-menu-email-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  width: 100vw;
+}
+
+.menu-links-container {
+  background-color: #fff;
+  width: 95vw;
+  margin: 1rem 0;
+}
+
+.menu-links-container details {
+  background-color: initial;
+  border-bottom: 1px solid #f5f5f5;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+
+.menu-links-container summary, .menu-links-container .link-items, .menu-links-container a {
+  background-color: initial;
+}
+
+.menu-links-container summary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.85rem;
+  font-size: 800;
+  color: #333;
+}
+
+.menu-links-container .link-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-size: 0.8rem;
+  font-size: 500;
+  color: #333;
+  margin: 1.5rem 0;
+}
+
+.menu-links-container a {
+  margin: 0.5rem 0;
+}
+
+.menu-links-container a:hover {
+  color: #FF5C39;
+}
+
+.logo-menu-links-container {
+  display: none;
+  background-color: #fff;
+  width: 60vw;
+}
+
+.logo-menu-links-container img {
+  background-color: initial;
+  margin-left: 1rem;
+}
+
+.logo-menu-links-container .link-group-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: initial;
+}
+
+.logo-menu-links-container .link-group-section section {
+  background-color: initial;
+  width: 30%;
+}
+
+.logo-menu-links-container .link-group-section h4 {
+  font-size: 1.1rem;
+  font-size: 300;
+  color: #333;
+  background-color: initial;
+}
+
+.logo-menu-links-container .link-items-lg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-size: 0.8rem;
+  font-size: 500;
+  color: #333;
+  background-color: initial;
+  margin: 1rem 0;
+}
+
+.logo-menu-links-container a {
+  background-color: initial;
+  margin: 0.6rem 0;
+}
+
+.logo-menu-links-container a:hover {
+  color: #FF5C39;
+  cursor: pointer;
+}
+
 .email-media-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1055,7 +1438,7 @@ footer {
 }
 
 .offPrice-email-container input {
-  border: 2px solid #C5CFBB;
+  border: 2px solid #f5f5f5;
   border-radius: 10px;
   background-color: initial;
   padding: 0.9rem;
@@ -1066,25 +1449,25 @@ footer {
 .offPrice-email-container input::-webkit-input-placeholder {
   font-size: 1rem;
   font-size: bold;
-  color: #C5CFBB;
+  color: #f5f5f5;
 }
 
 .offPrice-email-container input:-ms-input-placeholder {
   font-size: 1rem;
   font-size: bold;
-  color: #C5CFBB;
+  color: #f5f5f5;
 }
 
 .offPrice-email-container input::-ms-input-placeholder {
   font-size: 1rem;
   font-size: bold;
-  color: #C5CFBB;
+  color: #f5f5f5;
 }
 
 .offPrice-email-container input::placeholder {
   font-size: 1rem;
   font-size: bold;
-  color: #C5CFBB;
+  color: #f5f5f5;
 }
 
 .offPrice-email-container input:focus {
@@ -1260,6 +1643,9 @@ footer {
   .download-app-section img {
     width: 30%;
   }
+  .menu-links-container {
+    width: 80vw;
+  }
   .offPrice-email-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1341,6 +1727,22 @@ footer {
   }
   .download-app-section img {
     width: 29%;
+  }
+  .menu-links-container {
+    width: 90vw;
+  }
+  .menu-links-container details {
+    padding: 3rem 1.5rem;
+  }
+  .menu-links-container summary {
+    font-size: 1rem;
+    font-size: 800;
+    color: #333;
+  }
+  .menu-links-container .link-items {
+    font-size: 0.9rem;
+    font-size: 500;
+    color: #333;
   }
   .offPrice-email-container {
     -webkit-box-align: start;
@@ -1443,6 +1845,40 @@ footer {
   .download-app-section img {
     width: 26%;
   }
+  .logo-menu-email-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0 1.5rem;
+  }
+  .logo-menu-links-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu-links-container {
+    display: none;
+  }
   .email-media-container {
     width: 32vw;
   }
@@ -1451,7 +1887,7 @@ footer {
         -ms-flex-align: start;
             align-items: flex-start;
     width: 100%;
-    margin: 1rem 0;
+    margin-bottom: 1rem;
   }
   .offPrice-email-container h5 {
     font-size: 1rem;
@@ -1572,6 +2008,9 @@ footer {
   }
   .download-app-section img {
     width: 27%;
+  }
+  .menu-links-container {
+    display: none;
   }
   .offPrice-email-container {
     -webkit-box-align: start;

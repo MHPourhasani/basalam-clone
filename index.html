@@ -44,6 +44,60 @@
 					</ul>
 				</nav>
 			</div>
+
+			<!-- menu on laptop and large screen-->
+			<section class="large-header">
+				<section class="section-1-header">
+					<div class="logo-search-container">
+						<a href="#">
+							<img
+								src="/src/images/basalam_logo.svg"
+								alt="logo"
+								class="basalam-logo"
+							/>
+						</a>
+						<img src="/src/icons/search_icon.svg" alt="" class="search-icon">
+						<input type="text" placeholder="جستجو در بازار" />
+					</div>
+
+					<div class="register-cart-icons">
+						<button class="register-container">
+							<img src="/src/icons/user_icon.svg" alt="user icon" />
+							<h5>ورود / ثبت نام</h5>
+						</button>
+
+						<button class="cart-container">
+							<img src="/src/icons/bag_icon.svg" alt="user icon" />
+							<h5>سبد خرید</h5>
+						</button>
+					</div>
+				</section>
+
+				<div class="large-menu-header">
+					<nav>
+						<ul class="menu-list">
+							<li>
+								<a href="">
+									<img src="/src/icons/menu-50.png" alt="">
+									<h5>دسته بندی ها</h5>
+								</a>
+							</li>
+
+							<li>
+								<a href="">
+									<h5>نصب اپ</h5>
+								</a>
+							</li>
+
+							<li>
+								<a href="">
+									<h5>غرفه دار شو</h5>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</section>
 		</header>
 
 		<main>
@@ -251,30 +305,125 @@
 				</div>
 			</section>
 
-			<!-- off price email section and social media container -->
-			<section class="email-media-container">
-				<!-- off price email section -->
-				<section class="offPrice-email-container">
-					<h5>ایمیل‌تان را وارد کنید تا از تخفیف‌ها باخبر شوید.</h5>
-					<form>
-						<input type="email" id="email-input" placeholder="ایمیل" />
-						<button type="submit">ارسال</button>
-					</form>
-				</section>
+			<section class="logo-menu-email-container">
+				<div>
+					<!-- menu links container for mobile and tablet screen -->
+					<section class="menu-links-container">
+						<details>
+							<summary>
+								پشتیبانی
+								<p>/\</p>
+							</summary>
 
-				<!-- social media container -->
-				<section class="social-media-container">
-					<h4>مارا در شبکه های اجتماعی دنبال کنید.</h4>
+							<div class="link-items">
+								<a>تلفن تماس: 025-31075 و 025-91003175</a>
+								<a>پشتیبانی آنلاین</a>
+								<a>پیگیری سفارش‌ها</a>
+								<a>گزارش تخلف</a>
+								<a>پاسخ به سوالات همیشگی</a>
+							</div>
+						</details>
 
-					<div>
-						<a href="#"><img src="/src/icons/twitter-icon.png" alt="twitter icon" /></a>
-						<a href="#"
-							><img src="/src/icons/instagram-icon.png" alt="instagram icon"
-						/></a>
-						<a href="#"
-							><img src="/src/icons/linkedin-icon.png" alt="linkedin icon"
-						/></a>
-					</div>
+						<details>
+							<summary>
+								باسلام
+								<p>/\</p>
+							</summary>
+
+							<div class="link-items">
+								<a>داستان باسلام</a>
+								<a>تماس با ما</a>
+								<a>فرصت های شغلی</a>
+								<a>باسلام چطور کار می کند؟</a>
+								<a>قوانین و شرایط بازار</a>
+							</div>
+						</details>
+
+						<details>
+							<summary>
+								خرید و فروش
+								<p>/\</p>
+							</summary>
+
+							<div class="link-items">
+								<a>فروش در باسلام</a>
+								<a>تماس با ما</a>
+								<a>کیف پول من</a>
+								<a>مدیریت غرفه</a>
+							</div>
+						</details>
+					</section>
+
+					<!-- menu links container for lapto and large screen -->
+					<section class="logo-menu-links-container">
+						<img src="/src/images/basalam_logo_lg.svg" alt="basalam logo" />
+
+						<div class="link-group-section">
+							<section class="">
+								<h4>پشتیبانی</h4>
+
+								<div class="link-items-lg">
+									<a>تلفن تماس: 025-31075</a>
+									<a>پشتیبانی آنلاین</a>
+									<a>پیگیری سفارش‌ها</a>
+									<a>گزارش تخلف</a>
+									<a>پاسخ به سوالات همیشگی</a>
+								</div>
+							</section>
+
+							<section>
+								<h4>باسلام</h4>
+
+								<div class="link-items-lg">
+									<a>داستان باسلام</a>
+									<a>تماس با ما</a>
+									<a>فرصت های شغلی</a>
+									<a>باسلام چطور کار می کند؟</a>
+									<a>قوانین و شرایط بازار</a>
+								</div>
+							</section>
+
+							<section>
+								<h4>خرید و فروش</h4>
+
+								<div class="link-items-lg">
+									<a>فروش در باسلام</a>
+									<a>تماس با ما</a>
+									<a>کیف پول من</a>
+									<a>مدیریت غرفه</a>
+								</div>
+							</section>
+						</div>
+					</section>
+				</div>
+
+				<!-- off price email section and social media container -->
+				<section class="email-media-container">
+					<!-- off price email section -->
+					<section class="offPrice-email-container">
+						<h5>ایمیل‌تان را وارد کنید تا از تخفیف‌ها باخبر شوید.</h5>
+						<form>
+							<input type="email" id="email-input" placeholder="ایمیل" />
+							<button type="submit">ارسال</button>
+						</form>
+					</section>
+
+					<!-- social media container -->
+					<section class="social-media-container">
+						<h4>مارا در شبکه های اجتماعی دنبال کنید.</h4>
+
+						<div>
+							<a href="#"
+								><img src="/src/icons/twitter-icon.png" alt="twitter icon"
+							/></a>
+							<a href="#"
+								><img src="/src/icons/instagram-icon.png" alt="instagram icon"
+							/></a>
+							<a href="#"
+								><img src="/src/icons/linkedin-icon.png" alt="linkedin icon"
+							/></a>
+						</div>
+					</section>
 				</section>
 			</section>
 

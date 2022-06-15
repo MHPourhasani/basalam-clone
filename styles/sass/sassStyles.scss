@@ -31,12 +31,138 @@
     }
 }
 
+// menu on laptop and large screen
+.large-header {
+    display: none;
+    width: 100vw;
+    border-bottom: 2px solid #e7e6e6;
+    padding: 0.5rem 2.5rem;
+    background-color: $whiteColor;
+
+    .section-1-header {
+        @include flexStyles(row, space-between, center);
+        background-color: initial;
+        width: 100%;
+        padding: 0.6rem 0;
+    }
+
+    .logo-search-container {
+        @include flexStyles(row, center, center);
+        background-color: initial;
+        position: relative;
+    }
+
+    .basalam-logo {
+        background-color: $whiteColor;
+        width: 5.5rem;
+    }
+
+    .search-icon {
+        background-color: $whiteColor;
+        position: absolute;
+        right: 8rem;
+        width: 1.3rem;
+    }
+
+    input {
+        background-color: $liteGrayColor;
+        width: 31rem;
+        height: 3.3rem;
+        margin: 0 1.5rem;
+        padding: 0 3rem;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        letter-spacing: -0.5px;
+    }
+
+    .register-cart-icons {
+        @include flexStyles(row, center, center);
+        background-color: initial;
+    }
+
+    .register-container, .cart-container {
+        @include flexStyles(column, center, center);
+        @include textStyles(1.05rem, 500, $blackColor);
+        background-color: initial;
+        letter-spacing: -0.5px;
+        border: none;
+    }
+    
+    .register-container {
+        margin-left: 1.4rem;
+        
+        h5 {
+            background-color: initial;
+        }
+        
+        img {
+            background-color: initial;
+            width: 1.7rem;
+            margin: 10px 0;
+        }
+    }
+    
+    .cart-container {
+        margin-right: 1.4rem;
+
+        h5 {
+            background-color: initial;
+        }
+
+        img {
+            width: 1.3rem;
+            margin: 13px 0;
+        }
+    }
+
+    .menu-list {
+        @include flexStyles(row, flex-start, flex-start);
+        background-color: $whiteColor;
+        padding: 0.5rem 0;
+        gap: 2.5rem ;
+
+        ul, li {
+            background-color: initial;
+        }
+
+        a {
+            @include flexStyles(row, flex-start, center);
+            @include textStyles(1.2rem, 500, $blackColor);
+            background-color: initial;
+            letter-spacing: -1px;
+            
+            h5 {
+                background-color: initial;
+            }
+
+            &:hover {
+                color: $liteOrangeColor;
+            }
+        }
+
+        img {
+            width: 0.9rem;
+            margin: 0 5px;
+
+            &:hover {
+                color: $liteOrangeColor;
+            }
+        }
+    }
+}
+
 // ------- media query section to responsive elements in header section -------
         // laptop screen (min-width:1024px to max-width:1279px)
 @include mediaQuery(lg) {
     // mobile menu section
     .mobile-menu {
         display: none;
+    }
+
+    // menu on laptop and large screen
+    .large-header {
+        @include flexStyles(column, center, flex-start);
     }
 }
 
@@ -46,8 +172,17 @@
     .mobile-menu {
         display: none;
     }
-}
 
+    // menu on laptop and large screen
+    .large-header {
+        @include flexStyles(column, center, flex-start);
+        padding: 0.5rem 1.3rem;
+
+        input {
+            width: 37.5rem;
+        }
+    }
+}
 
 // ---------------------- main ---------------------- 
 
@@ -592,7 +727,7 @@ footer {
 
 // basalam benefit section
 .basalam-benefit-container {
-    @include flexStyles(row,center,center);
+    @include flexStyles(row,space-between,center);
     @include textStyles(0.9rem, 300, $darkGrayColor);
     flex-wrap: wrap;
     background-color: initial;
@@ -641,6 +776,94 @@ footer {
 
     img {
         width: 27%;
+    }
+}
+
+//  logo and menu and email container
+.logo-menu-email-container {
+    @include flexStyles(column, center, center);
+    background-color: $whiteColor;
+    width: 100vw;
+}
+
+//  menu links container for mobile and tablet screen
+.menu-links-container {
+    background-color: $whiteColor;
+    width: 95vw;
+    margin: 1rem 0;
+    
+    details {
+        background-color: initial;
+        border-bottom: 1px solid $liteGrayColor;
+        padding: 1rem 1.5rem;
+        cursor: pointer;
+    }
+    
+    summary, .link-items, a {
+        background-color: initial;
+    }
+
+    summary {
+        @include flexStyles(row, space-between, center);
+        @include textStyles(0.85rem,800,$darkGrayColor);
+    }
+
+    .link-items {
+        @include flexStyles(column, flex-start, flex-start);
+        @include textStyles(0.8rem,500,$darkGrayColor);
+        margin: 1.5rem 0;
+    }
+
+    a {
+        margin: 0.5rem 0;
+
+        &:hover {
+            color: $liteOrangeColor;
+        }
+    }
+}
+
+//  menu links container for laptop and large screen
+.logo-menu-links-container {
+    display: none;
+    background-color: $whiteColor;
+    width: 60vw;
+
+    img {
+        background-color: initial;
+        margin-left: 1rem;
+    }
+    
+    .link-group-section {
+        @include flexStyles(row, space-between, flex-start);
+        background-color: initial;
+
+        section {
+            background-color: initial;
+            width: 30%;
+        }
+        
+        h4 {
+            @include textStyles(1.1rem, 300, $darkGrayColor);
+            background-color: initial;
+        }
+    }
+    
+    .link-items-lg {
+        @include flexStyles(column, flex-start, flex-start);
+        @include textStyles(0.8rem, 500, $darkGrayColor);
+        background-color: initial;
+        margin: 1rem 0;
+    }
+
+    a {
+        background-color: initial;
+        margin: 0.6rem 0;
+
+        &:hover {
+            color: $liteOrangeColor;
+            cursor: pointer;
+        }
     }
 }
 
@@ -814,6 +1037,11 @@ footer {
 
     }
 
+    //  menu links container for mobile and tablet screen
+    .menu-links-container {
+        width: 80vw;
+    }
+
     // offPrice email section
     .offPrice-email-container {
         @include flexStyles(column,center,flex-start);
@@ -894,6 +1122,23 @@ footer {
             width: 29%;
         }
 
+    }
+
+    //  menu links container for mobile and tablet screen
+    .menu-links-container {
+        width: 90vw;
+
+        details {
+            padding: 3rem 1.5rem;
+        }
+
+        summary {
+            @include textStyles(1rem,800,$darkGrayColor);
+        }
+
+        .link-items {
+            @include textStyles(0.9rem,500,$darkGrayColor);
+        }
     }
 
     // offPrice email section
@@ -988,26 +1233,43 @@ footer {
         h2 {
             margin: 1.5rem 0 ;
         }
-
+        
         a {
             @include textStyles(1.4rem, 500, $darkGrayColor);
         }
-
+        
         img {
             width: 26%;
         }
+        
+    }
+    
+    //  logo and menu and email container
+    .logo-menu-email-container {
+        @include flexStyles(row, space-between, flex-start);
+        padding: 0 1.5rem;
+    }
 
+    //  menu links container for laptop and large screen
+    .logo-menu-links-container {
+        @include flexStyles(row, center, center);
+    }
+
+    //  menu links container for mobile and tablet screen
+    .menu-links-container {
+        display: none;
     }
 
     // offPrice email and social media app section
     .email-media-container {
         width: 32vw;
     }
+
     // offPrice email section
     .offPrice-email-container {
         align-items: flex-start;
         width: 100%;
-        margin: 1rem 0;
+        margin-bottom: 1rem;
 
         h5 {
             font-size: 1rem;
@@ -1123,6 +1385,11 @@ footer {
         }
     }
 
+    //  menu links container
+    .menu-links-container {
+        display: none;
+    }
+
     // offPrice email section
     .offPrice-email-container {
         align-items: flex-start;
@@ -1145,6 +1412,7 @@ footer {
     .email-media-container {
         width: 30vw;
     }
+
     // offPrice email section
     .offPrice-email-container {
         align-items: flex-start;
