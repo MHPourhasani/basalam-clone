@@ -1,5 +1,6 @@
 @import 'variables';
 @import 'mixins';
+@import url(fontiran.css);
 
 * {
     @include normalize;
