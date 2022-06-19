@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-decoration: none;
   list-style: none;
   direction: rtl;
@@ -11,18 +10,10 @@
 }
 
 .mobile-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   border: 0.5px solid #f5f5f5;
   border-radius: 0;
   background-color: #fff;
@@ -31,30 +22,18 @@
   position: fixed;
   bottom: 0;
 }
-
 .mobile-menu a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-size: 0.75rem;
   font-size: 400;
   color: #333;
 }
-
 .mobile-menu a img {
   margin-bottom: 2px;
 }
-
 .mobile-menu a:hover {
   color: #214E94;
 }
@@ -66,56 +45,33 @@
   padding: 0.5rem 2.5rem;
   background-color: #fff;
 }
-
 .large-header .section-1-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   background-color: initial;
   width: 100%;
   padding: 0.6rem 0;
 }
-
 .large-header .logo-search-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background-color: initial;
   position: relative;
 }
-
 .large-header .basalam-logo {
   background-color: #fff;
   width: 5.5rem;
 }
-
 .large-header .search-icon {
   background-color: #fff;
   position: absolute;
   right: 8rem;
   width: 1.3rem;
 }
-
 .large-header input {
   background-color: #f5f5f5;
   width: 31rem;
@@ -127,38 +83,18 @@
   border-radius: 5px;
   letter-spacing: -0.5px;
 }
-
 .large-header .register-cart-icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background-color: initial;
 }
-
 .large-header .register-container, .large-header .cart-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-size: 1.05rem;
   font-size: 500;
   color: #000;
@@ -166,91 +102,60 @@
   letter-spacing: -0.5px;
   border: none;
 }
-
 .large-header .register-container {
   margin-left: 1.4rem;
 }
-
 .large-header .register-container h5 {
   background-color: initial;
 }
-
 .large-header .register-container img {
   background-color: initial;
   width: 1.7rem;
   margin: 10px 0;
 }
-
 .large-header .cart-container {
   margin-right: 1.4rem;
 }
-
 .large-header .cart-container h5 {
   background-color: initial;
 }
-
 .large-header .cart-container img {
   width: 1.3rem;
   margin: 13px 0;
 }
-
 .large-header .menu-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
   background-color: #fff;
   padding: 0.5rem 0;
   gap: 2.5rem;
 }
-
 .large-header .menu-list ul, .large-header .menu-list li {
   background-color: initial;
 }
-
 .large-header .menu-list a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
   font-size: 1.2rem;
   font-size: 500;
   color: #000;
   background-color: initial;
   letter-spacing: -1px;
 }
-
 .large-header .menu-list a h5 {
   background-color: initial;
 }
-
 .large-header .menu-list a:hover {
   color: #FF5C39;
 }
-
 .large-header .menu-list img {
   width: 0.9rem;
   margin: 0 5px;
 }
-
 .large-header .menu-list img:hover {
   color: #FF5C39;
 }
@@ -259,62 +164,35 @@
   .mobile-menu {
     display: none;
   }
+
   .large-header {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
   }
 }
-
 @media (min-width: 1280px) {
   .mobile-menu {
     display: none;
   }
+
   .large-header {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     padding: 0.5rem 1.3rem;
   }
   .large-header input {
     width: 37.5rem;
   }
 }
-
 main, footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100vw;
 }
 
@@ -323,57 +201,34 @@ main, footer {
   height: auto;
   margin: 1.3rem 0;
 }
-
 .golab-baner img {
   width: 100%;
 }
 
 .category-1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   width: 95vw;
   margin: 0.75rem 0;
   overflow: auto;
 }
-
 .category-1 a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-size: 1rem;
   font-size: 300;
   color: #333;
   text-align: center;
   margin: 0 0.4rem;
 }
-
 .category-1 a:hover {
   color: #FF5C39;
-  -webkit-transition: all linear 0.2s;
   transition: all linear 0.2s;
 }
-
 .category-1 img {
   width: 4.3rem;
   height: 4.3rem;
@@ -385,63 +240,39 @@ main, footer {
   height: auto;
   margin: 1.3rem 0;
 }
-
 .lavashak-baner img {
   width: 100%;
 }
 
 .category-2-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
   width: 95vw;
   overflow: auto;
   margin: 0.5rem 0;
 }
-
 .category-2-list li {
   width: 18rem;
   height: auto;
   margin: 0 0.3rem;
 }
-
 .category-2-list a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-size: 1rem;
   font-size: 300;
   color: #333;
   text-align: center;
   width: 100%;
 }
-
 .category-2-list a:hover {
   color: #F62C00;
-  -webkit-transition: all linear 0.2s;
   transition: all linear 0.2s;
 }
-
 .category-2-list img {
   background-color: #fff;
   width: 3.9rem;
@@ -455,73 +286,42 @@ main, footer {
   height: auto;
   margin: 1.5rem 0;
 }
-
 .toy-baner img {
   width: 100%;
 }
 
 .baners-group {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .spices-bath-baner {
   width: 95vw;
   height: auto;
   margin: 0.5rem 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
 .spices-bath-baner img {
   width: 100%;
 }
-
 .spices-bath-baner img {
   margin: 7px 0;
 }
 
 .rice-matress-lamp-clock-baner {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
   width: 98vw;
   margin: 1.3rem 0;
 }
-
 .rice-matress-lamp-clock-baner img {
   width: 50%;
   height: auto;
@@ -533,7 +333,6 @@ main, footer {
   height: auto;
   margin: 1rem 0;
 }
-
 .ghahveh-baner img {
   width: 100%;
 }
@@ -543,34 +342,21 @@ main, footer {
   height: auto;
   margin: 1.2rem 0;
 }
-
 .tanaghgholat-padari-baner img {
   width: 100%;
 }
-
 .tanaghgholat-padari-baner img {
   margin: 4px 0;
 }
 
 .barghi-zivaralat-khorma-roghan-baner {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   width: 95vw;
 }
-
 .barghi-zivaralat-khorma-roghan-baner img {
   width: 50%;
   height: auto;
@@ -582,7 +368,6 @@ main, footer {
   height: auto;
   margin: 2rem 0;
 }
-
 .tajrobeh-kharid-baner img {
   width: 100%;
 }
@@ -596,12 +381,14 @@ main, footer {
   .golab-baner img {
     width: 100%;
   }
+
   .category-1 {
     margin: 0.75rem 1rem;
   }
   .category-1 a {
     margin: 0 0.3rem;
   }
+
   .lavashak-baner {
     width: 82vw;
     height: auto;
@@ -610,12 +397,14 @@ main, footer {
   .lavashak-baner img {
     width: 100%;
   }
+
   .category-2-list {
     width: 82vw;
   }
   .category-2-list li {
     margin: 0 1.4rem;
   }
+
   .toy-baner {
     width: 82vw;
     height: auto;
@@ -624,6 +413,7 @@ main, footer {
   .toy-baner img {
     width: 100%;
   }
+
   .spices-bath-baner img {
     width: 82vw;
     height: auto;
@@ -632,6 +422,7 @@ main, footer {
   .spices-bath-baner img img {
     width: 100%;
   }
+
   .rice-matress-lamp-clock-baner {
     width: 84vw;
     margin: 1.3rem 0;
@@ -641,6 +432,7 @@ main, footer {
     height: auto;
     padding: 7px;
   }
+
   .ghahveh-baner {
     width: 82vw;
     height: auto;
@@ -649,6 +441,7 @@ main, footer {
   .ghahveh-baner img {
     width: 100%;
   }
+
   .tanaghgholat-padari-baner {
     width: 82vw;
     height: auto;
@@ -657,22 +450,15 @@ main, footer {
   .tanaghgholat-padari-baner img {
     width: 100%;
   }
+
   .barghi-zivaralat-khorma-roghan-baner {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 82vw;
   }
+
   .tajrobeh-kharid-baner {
     width: 82vw;
     height: auto;
@@ -682,7 +468,6 @@ main, footer {
     width: 100%;
   }
 }
-
 @media (min-width: 768px) and (max-width: 1023px) {
   .golab-baner {
     width: 90vw;
@@ -692,21 +477,13 @@ main, footer {
   .golab-baner img {
     width: 100%;
   }
+
   .category-1 {
     width: 95vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
   .category-1 a {
     font-size: 1.1rem;
@@ -718,6 +495,7 @@ main, footer {
     width: 5rem;
     height: 5rem;
   }
+
   .lavashak-baner {
     width: 92vw;
     height: auto;
@@ -726,6 +504,7 @@ main, footer {
   .lavashak-baner img {
     width: 100%;
   }
+
   .category-2-list {
     width: 92vw;
   }
@@ -743,6 +522,7 @@ main, footer {
     height: 4.3rem;
     margin-bottom: 0.5rem;
   }
+
   .toy-baner {
     width: 92vw;
     height: auto;
@@ -751,6 +531,7 @@ main, footer {
   .toy-baner img {
     width: 100%;
   }
+
   .spices-bath-baner img {
     width: 92vw;
     height: auto;
@@ -759,6 +540,7 @@ main, footer {
   .spices-bath-baner img img {
     width: 100%;
   }
+
   .rice-matress-lamp-clock-baner {
     width: 94vw;
     margin: 1.5rem 0;
@@ -768,6 +550,7 @@ main, footer {
     height: auto;
     padding: 8px;
   }
+
   .ghahveh-baner {
     width: 92vw;
     height: auto;
@@ -776,6 +559,7 @@ main, footer {
   .ghahveh-baner img {
     width: 100%;
   }
+
   .tanaghgholat-padari-baner {
     width: 92vw;
     height: auto;
@@ -784,23 +568,16 @@ main, footer {
   .tanaghgholat-padari-baner img {
     width: 100%;
   }
+
   .barghi-zivaralat-khorma-roghan-baner {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 92vw;
     margin: 10px 0;
   }
+
   .tajrobeh-kharid-baner {
     width: 92vw;
     height: auto;
@@ -810,7 +587,6 @@ main, footer {
     width: 100%;
   }
 }
-
 @media (min-width: 1024px) and (max-width: 1279px) {
   .golab-baner {
     width: 92vw;
@@ -820,21 +596,13 @@ main, footer {
   .golab-baner img {
     width: 100%;
   }
+
   .category-1 {
     width: 95vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
   .category-1 a {
     font-size: 1.1rem;
@@ -846,6 +614,7 @@ main, footer {
     width: 5rem;
     height: 5rem;
   }
+
   .lavashak-baner {
     width: 92vw;
     height: auto;
@@ -854,6 +623,7 @@ main, footer {
   .lavashak-baner img {
     width: 100%;
   }
+
   .category-2-list {
     width: 92vw;
   }
@@ -873,6 +643,7 @@ main, footer {
     padding: 2rem;
     margin-bottom: 0.5rem;
   }
+
   .toy-baner {
     width: 92vw;
     height: auto;
@@ -881,20 +652,12 @@ main, footer {
   .toy-baner img {
     width: 100%;
   }
+
   .spices-bath-baner {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 92vw;
     height: auto;
     margin: 0.5rem 0;
@@ -905,6 +668,7 @@ main, footer {
   .spices-bath-baner img {
     width: 49%;
   }
+
   .rice-matress-lamp-clock-baner {
     width: 94vw;
     margin: 1.5rem 0;
@@ -914,6 +678,7 @@ main, footer {
     height: auto;
     padding: 8px;
   }
+
   .ghahveh-baner {
     width: 92vw;
     height: auto;
@@ -922,23 +687,15 @@ main, footer {
   .ghahveh-baner img {
     width: 100%;
   }
+
   .tanaghgholat-padari-baner {
     width: 92vw;
     height: auto;
     margin: 1.3rem 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
   .tanaghgholat-padari-baner img {
     width: 100%;
@@ -946,26 +703,19 @@ main, footer {
   .tanaghgholat-padari-baner img {
     width: 49%;
   }
+
   .barghi-zivaralat-khorma-roghan-baner {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 92vw;
     margin: 10px 0;
   }
   .barghi-zivaralat-khorma-roghan-baner img {
     width: 23.5%;
   }
+
   .tajrobeh-kharid-baner {
     width: 92vw;
     height: auto;
@@ -975,7 +725,6 @@ main, footer {
     width: 100%;
   }
 }
-
 @media (min-width: 1280px) {
   .golab-baner {
     width: 97vw;
@@ -985,21 +734,13 @@ main, footer {
   .golab-baner img {
     width: 100%;
   }
+
   .category-1 {
     width: 80vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
   .category-1 a {
     font-size: 1.1rem;
@@ -1011,6 +752,7 @@ main, footer {
     width: 5.5rem;
     height: 5.5rem;
   }
+
   .lavashak-baner {
     width: 97vw;
     height: auto;
@@ -1019,6 +761,7 @@ main, footer {
   .lavashak-baner img {
     width: 100%;
   }
+
   .category-2-list {
     width: 92vw;
   }
@@ -1038,6 +781,7 @@ main, footer {
     padding: 2rem;
     margin-bottom: 0.5rem;
   }
+
   .toy-baner {
     width: 97vw;
     height: auto;
@@ -1046,20 +790,12 @@ main, footer {
   .toy-baner img {
     width: 100%;
   }
+
   .spices-bath-baner {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 97vw;
     height: auto;
     margin: 0.5rem 0;
@@ -1070,17 +806,17 @@ main, footer {
   .spices-bath-baner img {
     width: 49.4%;
   }
+
   .rice-matress-lamp-clock-baner {
     width: 98vw;
     margin: 1.5rem 0;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .rice-matress-lamp-clock-baner img {
     width: 25%;
     height: auto;
   }
+
   .ghahveh-baner {
     width: 97vw;
     height: auto;
@@ -1089,23 +825,15 @@ main, footer {
   .ghahveh-baner img {
     width: 100%;
   }
+
   .tanaghgholat-padari-baner {
     width: 97vw;
     height: auto;
     margin: 1.3rem 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
   .tanaghgholat-padari-baner img {
     width: 100%;
@@ -1113,26 +841,19 @@ main, footer {
   .tanaghgholat-padari-baner img {
     width: 49.3%;
   }
+
   .barghi-zivaralat-khorma-roghan-baner {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 97vw;
     margin: 1rem 0;
   }
   .barghi-zivaralat-khorma-roghan-baner img {
     width: 24%;
   }
+
   .tajrobeh-kharid-baner {
     width: 97vw;
     height: auto;
@@ -1142,59 +863,36 @@ main, footer {
     width: 100%;
   }
 }
-
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #fff;
   padding: 0 0 3.5rem 0;
 }
 
 .basalam-benefit-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   font-size: 0.9rem;
   font-size: 300;
   color: #333;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   background-color: initial;
   text-align: center;
 }
-
 .basalam-benefit-container div {
   background-color: initial;
   margin: 10px;
 }
-
 .basalam-benefit-container img {
   background-color: initial;
   width: 3rem;
   height: 3rem;
 }
-
 .basalam-benefit-container h5 {
   background-color: initial;
 }
@@ -1204,59 +902,36 @@ footer {
   text-align: center;
   padding: 0 5px;
 }
-
 .download-app-section h2 {
   background-color: initial;
   margin: 1rem 0;
 }
-
 .download-app-section a {
   font-size: 1.3rem;
   font-size: 300;
   color: #333;
   background-color: initial;
 }
-
 .download-app-section a:hover {
-  -webkit-transition: all linear 0.1s;
   transition: all linear 0.1s;
   color: #F62C00;
 }
-
 .download-app-section div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   background-color: initial;
 }
-
 .download-app-section img {
   width: 27%;
 }
 
 .logo-menu-email-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #fff;
   width: 100vw;
 }
@@ -1266,61 +941,37 @@ footer {
   width: 95vw;
   margin: 1rem 0;
 }
-
 .menu-links-container details {
   background-color: initial;
   border-bottom: 1px solid #f5f5f5;
   padding: 1rem 1.5rem;
   cursor: pointer;
 }
-
 .menu-links-container summary, .menu-links-container .link-items, .menu-links-container a {
   background-color: initial;
 }
-
 .menu-links-container summary {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   font-size: 0.85rem;
   font-size: 800;
   color: #333;
 }
-
 .menu-links-container .link-items {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   font-size: 0.8rem;
   font-size: 500;
   color: #333;
   margin: 1.5rem 0;
 }
-
 .menu-links-container a {
   margin: 0.5rem 0;
 }
-
 .menu-links-container a:hover {
   color: #FF5C39;
 }
@@ -1330,113 +981,68 @@ footer {
   background-color: #fff;
   width: 60vw;
 }
-
 .logo-menu-links-container img {
   background-color: initial;
   margin-left: 1rem;
 }
-
 .logo-menu-links-container .link-group-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
   background-color: initial;
 }
-
 .logo-menu-links-container .link-group-section section {
   background-color: initial;
   width: 30%;
 }
-
 .logo-menu-links-container .link-group-section h4 {
   font-size: 1.1rem;
   font-size: 300;
   color: #333;
   background-color: initial;
 }
-
 .logo-menu-links-container .link-items-lg {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   font-size: 0.8rem;
   font-size: 500;
   color: #333;
   background-color: initial;
   margin: 1rem 0;
 }
-
 .logo-menu-links-container a {
   background-color: initial;
   margin: 0.6rem 0;
 }
-
 .logo-menu-links-container a:hover {
   color: #FF5C39;
   cursor: pointer;
 }
 
 .email-media-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #fff;
 }
 
 .offPrice-email-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #fff;
   width: 90vw;
   margin: 1rem 0;
 }
-
 .offPrice-email-container h5 {
   background-color: initial;
   margin: 5px 0;
 }
-
 .offPrice-email-container input {
   border: 2px solid #f5f5f5;
   border-radius: 10px;
@@ -1445,37 +1051,25 @@ footer {
   width: 55vw;
   outline: none;
 }
-
-.offPrice-email-container input::-webkit-input-placeholder {
+.offPrice-email-container input::-moz-placeholder {
   font-size: 1rem;
   font-size: bold;
   color: #f5f5f5;
 }
-
 .offPrice-email-container input:-ms-input-placeholder {
   font-size: 1rem;
   font-size: bold;
   color: #f5f5f5;
 }
-
-.offPrice-email-container input::-ms-input-placeholder {
-  font-size: 1rem;
-  font-size: bold;
-  color: #f5f5f5;
-}
-
 .offPrice-email-container input::placeholder {
   font-size: 1rem;
   font-size: bold;
   color: #f5f5f5;
 }
-
 .offPrice-email-container input:focus {
   border-color: #FF5C39;
-  -webkit-transition: all linear 0.1s;
   transition: all linear 0.1s;
 }
-
 .offPrice-email-container button {
   font-size: 1rem;
   font-size: 300;
@@ -1487,28 +1081,17 @@ footer {
   padding: 0.9rem 0;
   cursor: pointer;
 }
-
 .offPrice-email-container button:hover {
   background-color: #F62C00;
   border-color: #F62C00;
-  -webkit-transition: all linear 0.2s;
   transition: all linear 0.2s;
 }
 
 .social-media-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   font-size: 0.9rem;
   font-size: 300;
   color: #333;
@@ -1516,21 +1099,17 @@ footer {
   width: 85vw;
   margin: 1.5rem 0;
 }
-
 .social-media-container div {
   background-color: initial;
 }
-
 .social-media-container h4 {
   background-color: initial;
   width: 50%;
 }
-
 .social-media-container a {
   background-color: initial;
   margin: 0 0.6rem;
 }
-
 .social-media-container a img {
   width: 1.3rem;
   height: 1.3rem;
@@ -1542,23 +1121,13 @@ footer {
 }
 
 .logos-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background-color: #fff;
   margin: 2rem 0.9rem;
 }
-
 .logos-container img {
   background-color: initial;
   width: 25%;
@@ -1572,18 +1141,15 @@ footer {
   margin: 1.5rem 0;
   padding: 0 2rem;
 }
-
 .basalam-description-container h4, .basalam-description-container p {
   background-color: initial;
 }
-
 .basalam-description-container h4 {
   font-size: 0.9rem;
   font-size: 300;
   color: #333;
   margin: 1.5rem 0;
 }
-
 .basalam-description-container p {
   font-size: 0.75rem;
   font-size: 300;
@@ -1596,7 +1162,6 @@ footer {
   width: 100vw;
   margin-top: 1rem;
 }
-
 .copyWrite-container p {
   font-size: 0.7rem;
   font-size: 300;
@@ -1607,19 +1172,10 @@ footer {
 
 @media (min-width: 640px) and (max-width: 767px) {
   .basalam-benefit-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 65vw;
     margin: 1.5rem 0;
   }
@@ -1629,6 +1185,7 @@ footer {
   .basalam-benefit-container img {
     margin-bottom: 1rem;
   }
+
   .download-app-section {
     width: 75vw;
   }
@@ -1643,23 +1200,16 @@ footer {
   .download-app-section img {
     width: 30%;
   }
+
   .menu-links-container {
     width: 80vw;
   }
+
   .offPrice-email-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     width: 75vw;
     margin: 2rem 0;
   }
@@ -1672,38 +1222,32 @@ footer {
   .offPrice-email-container button {
     width: 14vw;
   }
+
   .social-media-container {
     width: 70vw;
   }
   .social-media-container h4 {
     width: 60%;
   }
+
   .copyWrite-container p {
     padding: 1.2rem 3.5rem;
   }
+
   .logos-container {
     width: 70vw;
   }
+
   .basalam-description-container {
     width: 70vw;
   }
 }
-
 @media (min-width: 768px) and (max-width: 1023px) {
   .basalam-benefit-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 90vw;
     margin: 1.5rem 0;
     font-size: 1rem;
@@ -1714,6 +1258,7 @@ footer {
   .basalam-benefit-container img {
     margin-bottom: 1rem;
   }
+
   .download-app-section {
     width: 65vw;
   }
@@ -1728,6 +1273,7 @@ footer {
   .download-app-section img {
     width: 29%;
   }
+
   .menu-links-container {
     width: 90vw;
   }
@@ -1744,10 +1290,9 @@ footer {
     font-size: 500;
     color: #333;
   }
+
   .offPrice-email-container {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    align-items: flex-start;
     margin: 2.5rem 0;
   }
   .offPrice-email-container h5 {
@@ -1759,6 +1304,7 @@ footer {
   .offPrice-email-container button {
     width: 15vw;
   }
+
   .social-media-container {
     width: 85vw;
   }
@@ -1769,56 +1315,39 @@ footer {
     width: 1.5rem;
     height: 1.5rem;
   }
+
   .copyWrite-container p {
     font-size: 0.8rem;
     padding: 1.6rem 2.5rem;
   }
+
   .logos-container {
     width: 85vw;
   }
   .logos-container img {
     margin: 0 2rem;
   }
+
   .basalam-description-container {
     width: 80vw;
   }
 }
-
 @media (min-width: 1024px) and (max-width: 1279px) {
   footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 0 0;
   }
+
   .basalam-benefit-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
     width: 50vw;
     margin: 1.5rem 0;
     font-size: 1.1rem;
@@ -1831,6 +1360,7 @@ footer {
     height: 3.7rem;
     margin-bottom: 1rem;
   }
+
   .download-app-section {
     width: 30vw;
   }
@@ -1845,47 +1375,32 @@ footer {
   .download-app-section img {
     width: 26%;
   }
+
   .logo-menu-email-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
     padding: 0 1.5rem;
   }
+
   .logo-menu-links-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
+
   .menu-links-container {
     display: none;
   }
+
   .email-media-container {
     width: 32vw;
   }
+
   .offPrice-email-container {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    align-items: flex-start;
     width: 100%;
     margin-bottom: 1rem;
   }
@@ -1901,6 +1416,7 @@ footer {
   .offPrice-email-container button {
     width: 30%;
   }
+
   .social-media-container {
     width: 100%;
   }
@@ -1908,33 +1424,28 @@ footer {
     width: 1.4rem;
     height: 1.4rem;
   }
+
   .copyWrite-container p {
     font-size: 0.8rem;
     padding: 1.2rem 3rem;
   }
+
   .logos-desc-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
     width: 100vw;
     padding: 0 2.5rem;
   }
+
   .logos-container {
     width: 43vw;
   }
   .logos-container img {
     margin: 0 0.5rem;
   }
+
   .basalam-description-container {
     width: 45vw;
   }
@@ -1947,42 +1458,22 @@ footer {
     line-height: 1.4rem;
   }
 }
-
 @media (min-width: 1280px) {
   footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 0 0;
   }
+
   .basalam-benefit-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
     width: 57vw;
     margin: 1.5rem 0;
     font-size: 1.1rem;
@@ -1995,6 +1486,7 @@ footer {
     height: 3.7rem;
     margin-bottom: 1rem;
   }
+
   .download-app-section {
     width: 35vw;
   }
@@ -2009,13 +1501,13 @@ footer {
   .download-app-section img {
     width: 27%;
   }
+
   .menu-links-container {
     display: none;
   }
+
   .offPrice-email-container {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    align-items: flex-start;
     margin: 2.5rem 0;
   }
   .offPrice-email-container h5 {
@@ -2027,13 +1519,13 @@ footer {
   .offPrice-email-container button {
     width: 14vw;
   }
+
   .email-media-container {
     width: 30vw;
   }
+
   .offPrice-email-container {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    align-items: flex-start;
     width: 100%;
     margin: 1.5rem 0;
   }
@@ -2050,6 +1542,7 @@ footer {
   .offPrice-email-container button {
     width: 25%;
   }
+
   .social-media-container {
     width: 100%;
   }
@@ -2060,33 +1553,28 @@ footer {
     width: 1.5rem;
     height: 1.5rem;
   }
+
   .copyWrite-container p {
     font-size: 0.8rem;
     padding: 1.1rem 1.5rem;
   }
+
   .logos-desc-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
     width: 100vw;
     padding: 0 1rem;
   }
+
   .logos-container {
     width: 35vw;
   }
   .logos-container img {
     margin: 0 0.5rem;
   }
+
   .basalam-description-container {
     width: 45vw;
   }
@@ -2098,5 +1586,4 @@ footer {
     margin: 1.5rem 0;
     line-height: 1.4rem;
   }
-}
-/*# sourceMappingURL=sassStyles.css.map */
+}/*# sourceMappingURL=sassStyles.css.map */
